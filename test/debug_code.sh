@@ -12,7 +12,7 @@ cd "/c/Users/navarrodelacruz/OneDrive - University of South Florida/USF/PROJECTS
 seeds=("1" "2" "3" "4" "5")
 # 0-1 # large datasets
 #datasets=("wall-following")
-datasets=("small_toy")
+datasets=("seeds")
 
 #mpiexec -n ${SLURM_NTASKS} julia test/test.jl 2 CF+MILP+SG ${seeds[0]} par ${datasets[${SLURM_ARRAY_TASK_ID}]} > ${datasets[${SLURM_ARRAY_TASK_ID}]}-sd${seeds[0]}-2-CMS-${SLURM_NTASKS}.out
 julia test/test.jl 2 CF+MILP+SG ${seeds[0]} sl ${datasets[0]} > ${datasets[0]}-sd${seeds[0]}-2-CMS-${SLURM_NTASKS}.out
