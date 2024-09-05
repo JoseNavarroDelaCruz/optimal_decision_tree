@@ -7,7 +7,7 @@ using JuMP
 
 using Distributed, SharedArrays
 using parallel
-@everywhere using Trees, bound, Nodes
+using Trees, bound, Nodes
 
 export n_groups
 
