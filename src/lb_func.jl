@@ -8,7 +8,7 @@ using TimerOutputs: @timeit, get_timer
 
 using Distributed, SharedArrays
 using parallel
-@everywhere using ub_func, opt_func, Trees, Nodes, bound
+using ub_func, opt_func, Trees, Nodes, bound
 
 export getBound
 

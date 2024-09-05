@@ -8,7 +8,7 @@ using Statistics, StatsBase, Distances
 using MPI
 using Distributed, SharedArrays
 
-@everywhere using Trees, Nodes, branch, bound, parallel, opt_func, ub_func, lb_func, groups
+using Trees, Nodes, branch, bound, parallel, opt_func, ub_func, lb_func, groups
 
 export branch_bound
 

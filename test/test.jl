@@ -4,12 +4,12 @@ using Plots
 using MLDataUtils, Clustering
 using Distributed, SharedArrays
 # load functions for branch&bound and data preprocess from self-created module
-@everywhere begin
+begin
     if !("src/" in LOAD_PATH)
         push!(LOAD_PATH, "src/")
     end    
 end 
-@everywhere begin
+begin
     if !("test/" in LOAD_PATH)
         push!(LOAD_PATH, "test/")
     end
