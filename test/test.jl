@@ -143,7 +143,7 @@ if parallel.is_root()
     println("$dataname\t $(round(time_sg, digits=2))\t $objv_sg\t $(round(LB_sg, digits=3))\t $gap_sg\t $accr_trw\t $accr_trg\t $accr_w\t $accr_g")
     
     ##################### Tree structure plot #####################
-    plt = false
+    plt = true
     if plt
         tree_plot(tree_w, "CART", dataname)
         tree_plot(tree_sg, "sglb", dataname)
