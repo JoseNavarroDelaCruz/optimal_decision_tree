@@ -21,6 +21,7 @@ using TimerOutputs: @timeit, get_timer
 using Trees, bound, parallel, Nodes
 using opt_func, ub_func, lb_func, bb_func, data_process
 
+println("*All dependencies and files correcly loaded*")
 
 # arg1=: maximum depth of the tree
 # arg2=: Lower bound method
@@ -50,6 +51,7 @@ end
 if scheme == "par"
     using MPI
     parallel.init()
+    println("Parallel scheme activated")
 end
 
 parallel.create_world()
