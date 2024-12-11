@@ -1,3 +1,5 @@
+*All dependencies and files correcly loaded*
+Parallel scheme activated
 Running 1 processes.
 Start training glass with seed 1.
 Any[]
@@ -19955,7 +19957,7 @@ solved nodes:  7911
  1.0
 comparison (CRT and Glb)on prediction: Dict{Bool, Int64}(0 => 3, 1 => 53)
 Dataname	 time	 objv	 lb	 gap	 train_w	 train_g	 test_w	 test_g
-glass	 851.25	 140.93947368421053	 140.607	 0.0024	 65.823	 68.354	 64.286	 62.5
+glass	 803.02	 140.93947368421053	 140.607	 0.0024	 65.823	 68.354	 64.286	 62.5
 block: 4 for leaf 7
 block: 3 for leaf 6
 block: 2 for leaf 5

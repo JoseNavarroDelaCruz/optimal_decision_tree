@@ -1,6 +1,7 @@
 #! /bin/bash
-#SBATCH --nodes=25
-#SBATCH --ntasks-per-node=40
+#SBATCH --nodes=5
+#SBATCH --ntasks-per-node=4
+#SBATCH --ntasks=20
 #SBATCH -t 0-8:30
 #SBATCH --array=0,1
 #SBATCH --output=info-%x-%a-2-CF+MILP+SG.out
@@ -12,10 +13,16 @@ cd "/c/Users/navarrodelacruz/OneDrive - University of South Florida/USF/PROJECTS
 seeds=("1" "2" "3" "4" "5")
 # 0-1 # large datasets
 #datasets=("wall-following")
-datasets=("glass")
+datasets=("pendigits")
+
+echo " "
+echo " "
+echo "Starting job for dataset: ${datasets[${SLURM_ARRAY_TASK_ID}]}"
+echo "***************"
+
 
 #mpiexec -n ${SLURM_NTASKS} julia test/test.jl 2 CF+MILP+SG ${seeds[0]} par ${datasets[${SLURM_ARRAY_TASK_ID}]} > ${datasets[${SLURM_ARRAY_TASK_ID}]}-sd${seeds[0]}-2-CMS-${SLURM_NTASKS}.out
-julia test/test.jl 2 CF+MILP+SG ${seeds[0]} sl ${datasets[0]} > ${datasets[0]}-sd${seeds[0]}-2-CMS-${SLURM_NTASKS}.out
+julia test/test.jl 2 CF+MILP+SG ${seeds[0]} par ${datasets[0]} | tee ${datasets[0]}-sd${seeds[0]}-2-CMS-${SLURM_NTASKS}.out
 
 :<<EOF
     # input argument of julia

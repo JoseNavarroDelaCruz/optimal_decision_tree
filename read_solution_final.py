@@ -278,7 +278,6 @@ def process_file_to_numpy(file_path):
 
 # ---------------- TEST CODE -------------------------- #
 problem_file_path = "seeds-sd1-2-CMS-.out"
-problem_path = "seeds-sd1-2-CMS-.out"
 #problem_file_path = "small_toy-sd1-2-CMS-.out"
 
 test_file_path = "data/seeds"

@@ -1,0 +1,13 @@
+*All dependencies and files correcly loaded*
+Parallel scheme activated
+Running 1 processes.
+Start training concrete with seed 1.
+Any[]
+(8, 1030)
+(8, 515)
+(8, 258)
+(8, 257)
+dimension: 8, class: 3
+cart cost: 667.571524663677
+size of X: (8, 773)
+ngroups: 29
