@@ -77,21 +77,27 @@ def process_solution_file(problem_path):
         file_content = file.read()
     
     lines = file_content.strip().split("\n")
-    extracted_info = []
+    extracted_info = None  # Will store only the last segment
     
     for i in range(len(lines)):
         if "Dataname" in lines[i]:
+            # Overwrite extracted_info with the current segment (last one wins)
             segment = "\n".join(lines[i:i+3])
-            extracted_values = extract_values_from_segment(segment)
-            extracted_info.append(extracted_values)
+            extracted_info = extract_values_from_segment(segment)
     
-    return extracted_info
+    if extracted_info is None:
+        raise ValueError(f"No 'Dataname' segment found in {problem_path}")
+    
+    return [extracted_info]
+
 
 # Normalize the training data
 def normalize_data(training_data):
     data_min = np.min(training_data[:, :-1], axis=0)
     data_max = np.max(training_data[:, :-1], axis=0)
-    normalized_data = (training_data[:, :-1] - data_min) / (data_max - data_min)
+    range_data = data_max - data_min
+    range_data[range_data == 0] = 1
+    normalized_data = (training_data[:, :-1] - data_min) / range_data
     return normalized_data
 
 
@@ -180,23 +186,27 @@ def compute_prediction_cost(predicted_leaf_nodes, real_leaf_values_one_hot, vari
 
 def extract_time_from_file(file_path):
     """
-    Extracts the `time` value from the provided text file.
+    Extracts the `time` value from the last 'Dataname' segment in the text file.
 
     Args:
         file_path (str): Path to the text file.
 
     Returns:
-        float: Extracted time value.
+        float: Extracted time value from the last segment.
     """
     with open(file_path, 'r') as file:
-        for line in file:
-            if line.startswith("Dataname"):
-                # The next line contains the desired data
-                next_line = next(file).strip()
-                # Split and extract the time value (2nd column)
-                time_value = float(next_line.split("\t")[1])
-                return time_value
-    raise ValueError("Time value not found in the file.")
+        lines = file.readlines()
+    
+    # Search from the end of the file for the last "Dataname" occurrence
+    for i in range(len(lines) - 1, -1, -1):  # Iterate backwards
+        if lines[i].startswith("Dataname"):
+            # The next line contains the data
+            next_line = lines[i + 1].strip()
+            # Split and extract the time value (2nd column)
+            time_value = float(next_line.split("\t")[1])
+            return time_value
+    
+    raise ValueError(f"No 'Dataname' segment found in {file_path}")
 
 
 
