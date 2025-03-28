@@ -4,12 +4,12 @@ using Plots
 using MLDataUtils, Clustering
 using Distributed, SharedArrays
 # load functions for branch&bound and data preprocess from self-created module
-@everywhere begin
+begin
     if !("src/" in LOAD_PATH)
         push!(LOAD_PATH, "src/")
     end    
 end 
-@everywhere begin
+begin
     if !("test/" in LOAD_PATH)
         push!(LOAD_PATH, "test/")
     end
@@ -21,6 +21,7 @@ using TimerOutputs: @timeit, get_timer
 using Trees, bound, parallel, Nodes
 using opt_func, ub_func, lb_func, bb_func, data_process
 
+println("*All dependencies and files correcly loaded*")
 
 # arg1=: maximum depth of the tree
 # arg2=: Lower bound method
@@ -50,6 +51,7 @@ end
 if scheme == "par"
     using MPI
     parallel.init()
+    println("Parallel scheme activated")
 end
 
 parallel.create_world()
@@ -143,7 +145,7 @@ if parallel.is_root()
     println("$dataname\t $(round(time_sg, digits=2))\t $objv_sg\t $(round(LB_sg, digits=3))\t $gap_sg\t $accr_trw\t $accr_trg\t $accr_w\t $accr_g")
     
     ##################### Tree structure plot #####################
-    plt = false
+    plt = true
     if plt
         tree_plot(tree_w, "CART", dataname)
         tree_plot(tree_sg, "sglb", dataname)
