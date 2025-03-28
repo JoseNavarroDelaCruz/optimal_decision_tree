@@ -288,15 +288,115 @@ print(solution_data)
 
 
 # Path to save the solution data
-save_directory = "/Users/navarrodelacruz/OneDrive - University of South Florida/USF/PROJECTS/neural_diving_pytorch"
-save_filename = "solution_data.pkl"
+base_directory = "/Users/navarrodelacruz/OneDrive - University of South Florida/USF/PROJECTS/optimal_decision_tree"
+save_directory = os.path.join(base_directory, "dt_datasets")
+
+save_filename = os.path.basename(test_file_path) + ".pkl"
+
 # Create the directory if it doesn't exist
 if not os.path.exists(save_directory):
-    os.makedirs(save_directory)
+    os.makedirs(save_directory, exist_ok=True)  # exist_ok=True prevents errors if directory exists
+    print(f"Created directory: {save_directory}")
+else:
+    print(f"Directory already exists: {save_directory}")
 
 # Full path to save the solution data
 save_path = os.path.join(save_directory, save_filename)
+print(f"Saving file to: {save_path}")
 
 # Save the solution_data object to the specified directory
 with open(save_path, 'wb') as file:
     pickle.dump(solution_data, file)
+
+print(f"File saved successfully at: {save_path}")
+
+
+
+# ---------------- TEST RECURSIVE CODE -------------------------- #
+
+
+# Base directories
+base_output_directory = os.getcwd()  # Current working directory
+base_input_directory = os.path.join(base_output_directory, "hpc_datasets")  
+
+
+# Function to match training and output files
+def find_matching_output_file(training_file, output_files):
+    # Extract the base name (e.g., "banknote_1" from "banknote_1.banknote")
+    base_name = os.path.splitext(os.path.basename(training_file))[0]
+    # Look for a matching output file
+    for output_file in output_files:
+        if base_name in output_file:  # Assumes base_name is part of the output filename
+            return output_file
+    return None
+
+# Create dt_datasets directory 
+dt_datasets_dir = os.path.join(base_output_directory, "odt_datasets")
+if not os.path.exists(dt_datasets_dir):
+    os.makedirs(dt_datasets_dir, exist_ok=True)
+    print(f"Created directory: {dt_datasets_dir}")
+else:
+    print(f"Directory already exists: {dt_datasets_dir}")
+
+# Iterate over all problem folders in hpc_datasets
+for problem in os.listdir(base_input_directory):
+    problem_path = os.path.join(base_input_directory, problem)
+    if not os.path.isdir(problem_path):  # Skip if not a directory
+        continue
+
+    # Define training and outputs directories
+    training_dir = os.path.join(problem_path, "training")
+    outputs_dir = os.path.join(problem_path, "outputs")
+
+    # Check if both directories exist
+    if not (os.path.exists(training_dir) and os.path.exists(outputs_dir)):
+        print(f"Skipping {problem}: missing training or outputs directory")
+        continue
+
+    # Get list of training and output files
+    training_files = [f for f in os.listdir(training_dir) if os.path.isfile(os.path.join(training_dir, f))]
+    output_files = [f for f in os.listdir(outputs_dir) if os.path.isfile(os.path.join(outputs_dir, f))]
+
+    # Create problem-specific folder in dt_datasets
+    problem_output_dir = os.path.join(dt_datasets_dir, problem)
+    if not os.path.exists(problem_output_dir):
+        os.makedirs(problem_output_dir, exist_ok=True)
+        print(f"Created directory: {problem_output_dir}")
+    else:
+        print(f"Directory already exists: {problem_output_dir}")
+
+    # Process each training file
+    for training_file in training_files:
+        training_file_path = os.path.join(training_dir, training_file)
+        
+        # Find corresponding output file
+        matching_output_file = find_matching_output_file(training_file, output_files)
+        if not matching_output_file:
+            print(f"No matching output file found for {training_file}")
+            continue
+        
+        problem_file_path = os.path.join(outputs_dir, matching_output_file)
+        test_file_path = training_file_path
+
+        # Generate solution data
+        try:
+            solution_data = generate_solution_data(problem_file_path, test_file_path)
+            print(f"Generated solution data for {training_file}")
+            print(solution_data)
+        except Exception as e:
+            print(f"Error generating solution data for {training_file}: {e}")
+            continue
+
+        # Define output filename (e.g., "banknote_1.pkl")
+        save_filename = os.path.splitext(training_file)[0] + ".pkl"  # Removes original extension, adds .pkl
+        save_path = os.path.join(problem_output_dir, save_filename)
+
+        # Save the solution data
+        try:
+            with open(save_path, 'wb') as file:
+                pickle.dump(solution_data, file)
+            print(f"Saved {save_filename} to {save_path}")
+        except Exception as e:
+            print(f"Error saving {save_filename}: {e}")
+
+print("Processing complete.")
