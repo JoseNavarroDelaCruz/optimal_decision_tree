@@ -1,0 +1,11 @@
+Running 4 processes.
+Start training small_toy_1.small_toy with seed 1.
+Any[]
+(2, 13)
+(2, 6)
+(2, 3)
+(2, 4)
+dimension: 2, class: 3
+cart cost: 2.7000000000000006
+size of X: (2, 9)
+ngroups: 2
