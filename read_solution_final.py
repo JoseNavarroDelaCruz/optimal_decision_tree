@@ -330,15 +330,35 @@ base_output_directory = os.getcwd()  # Current working directory
 base_input_directory = os.path.join(base_output_directory, "hpc_datasets")  
 
 
-# Function to match training and output files
+
 def find_matching_output_file(training_file, output_files):
-    # Extract the base name (e.g., "banknote_1" from "banknote_1.banknote")
     base_name = os.path.splitext(os.path.basename(training_file))[0]
-    # Look for a matching output file
+    chosen_file = None
+    chosen_num = float('inf')  # Start with infinity
+
     for output_file in output_files:
-        if base_name in output_file:  # Assumes base_name is part of the output filename
-            return output_file
-    return None
+        # Ensure it contains the base_name and ends with .out
+        if base_name in output_file and output_file.endswith(".out"):
+            # Remove .out, then split by '-'
+            # e.g. "myproblem-2.out" -> "myproblem-2" -> ["myproblem", "2"]
+            prefix = os.path.splitext(output_file)[0]
+            parts = prefix.split('-')
+            if len(parts) < 2:
+                # Couldn’t split properly; skip
+                continue
+            try:
+                # The last element after '-' should be the number (e.g. '2')
+                number = int(parts[-1])
+            except ValueError:
+                # Couldn’t parse as int; skip
+                continue
+
+            # If this number is smaller than the current chosen_num, update
+            if number < chosen_num:
+                chosen_num = number
+                chosen_file = output_file
+
+    return chosen_file
 
 # Create dt_datasets directory 
 dt_datasets_dir = os.path.join(base_output_directory, "odt_datasets")
@@ -392,7 +412,7 @@ for problem in os.listdir(base_input_directory):
         try:
             solution_data = generate_solution_data(problem_file_path, test_file_path)
             print(f"Generated solution data for {training_file}")
-            print(solution_data)
+            #print(solution_data)
         except Exception as e:
             print(f"Error generating solution data for {training_file}: {e}")
             continue
@@ -405,8 +425,7 @@ for problem in os.listdir(base_input_directory):
         try:
             with open(save_path, 'wb') as file:
                 pickle.dump(solution_data, file)
-            print(f"Saved {save_filename} to {save_path}")
+            #print(f"Saved {save_filename} to {save_path}")
         except Exception as e:
             print(f"Error saving {save_filename}: {e}")
-
 print("Processing complete.")
