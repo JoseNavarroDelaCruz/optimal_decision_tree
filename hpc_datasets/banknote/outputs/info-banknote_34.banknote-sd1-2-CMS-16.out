@@ -1,0 +1,9 @@
+Running 16 processes.
+Start training banknote_34.banknote with seed 1.
+Any[]
+(4, 1345)
+(4, 672)
+(4, 336)
+(4, 337)
+dimension: 4, class: 2
+cart cost: 148.38924731182806

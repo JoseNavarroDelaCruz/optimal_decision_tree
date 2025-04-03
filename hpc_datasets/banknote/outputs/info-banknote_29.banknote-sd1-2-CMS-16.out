@@ -1,0 +1,4664 @@
+Running 16 processes.
+Start training banknote_29.banknote with seed 1.
+Any[]
+(4, 1345)
+(4, 673)
+(4, 337)
+(4, 335)
+dimension: 4, class: 2
+cart cost: 210.81265060240966
+size of X: (4, 1010)
+ngroups: 33
+UB: 173.00140562248998
+Iter	left	lev	LB	UB	gap	
+0      0      1          37.8346    173.0014   357.2566   % 
+UB: 173.00140562248998
+branching on 1 with d.
+1      1      2          37.8346    173.0014   357.2566   % 
+LB close or above UB, fathomed
+2      0      2          37.8346    173.0014   357.2566   % 
+UB: 173.00140562248998
+branching on 2 with d.
+3      1      3          37.8346    173.0014   357.2566   % 
+UB: 173.00140562248998
+branching on 3 with d.
+4      2      3          37.8346    173.0014   357.2566   % 
+UB: 173.00140562248998
+branching on 3 with d.
+5      3      4          37.8346    173.0014   357.2566   % 
+UB: 173.00140562248998
+branching on CartesianIndex(1, 1) with a.
+6      4      4          37.8346    173.0014   357.2566   % 
+UB: 173.00140562248998
+branching on 1 with b.
+7      5      5          37.8823    173.0014   356.6820   % 
+UB: 129.78855421686748
+branching on 1 with b.
+8      6      5          37.8823    129.7886   242.6105   % 
+UB: 129.78855421686748
+branching on 1 with b.
+9      5      6          46.9106    129.7886   176.6720   % 
+UB: 129.78855421686748
+branching on 2 with b.
+10     6      6          46.9106    129.7886   176.6720   % 
+UB: 129.78855421686748
+branching on 2 with b.
+11     7      6          54.1404    129.7886   139.7260   % 
+UB: 129.78855421686748
+branching on CartesianIndex(1, 1) with a.
+12     8      6          54.1404    129.7886   139.7260   % 
+UB: 129.78855421686748
+branching on 2 with b.
+13     9      7          54.1457    129.7886   139.7025   % 
+UB: 129.78855421686748
+branching on CartesianIndex(2, 1) with a.
+14     10     7          54.1457    129.7886   139.7025   % 
+UB: 129.78855421686748
+branching on CartesianIndex(1, 2) with a.
+15     11     8          57.7586    129.7886   124.7088   % 
+UB: 129.78855421686748
+branching on CartesianIndex(3, 1) with a.
+16     12     8          57.7586    129.7886   124.7088   % 
+UB: 129.78855421686748
+branching on 2 with b.
+17     13     9          59.5677    129.7886   117.8842   % 
+UB: 129.78855421686748
+branching on 3 with b.
+18     14     9          59.5677    129.7886   117.8842   % 
+UB: 129.78855421686748
+branching on 3 with b.
+19     15     8          61.3564    129.7886   111.5322   % 
+UB: 129.78855421686748
+branching on CartesianIndex(2, 2) with a.
+20     16     8          61.3564    129.7886   111.5322   % 
+UB: 129.78855421686748
+branching on 2 with b.
+21     17     7          64.9573    129.7886   99.8061    % 
+UB: 129.78855421686748
+branching on CartesianIndex(1, 1) with a.
+22     18     7          64.9573    129.7886   99.8061    % 
+UB: 129.78855421686748
+branching on 3 with b.
+23     19     8          64.9573    129.7886   99.8061    % 
+UB: 129.78855421686748
+branching on CartesianIndex(1, 1) with a.
+24     20     8          64.9573    129.7886   99.8061    % 
+UB: 129.78855421686748
+branching on CartesianIndex(1, 1) with a.
+25     21     7          66.7285    129.7886   94.5024    % 
+UB: 129.78855421686748
+branching on CartesianIndex(1, 1) with a.
+26     22     7          66.7285    129.7886   94.5024    % 
+UB: 129.78855421686748
+branching on 3 with b.
+27     23     8          68.5458    129.7886   89.3457    % 
+UB: 129.78855421686748
+branching on CartesianIndex(1, 1) with a.
+28     24     8          68.5458    129.7886   89.3457    % 
+UB: 129.78855421686748
+branching on 1 with b.
+29     25     10         68.5703    129.7886   89.2780    % 
+UB: 129.78855421686748
+branching on CartesianIndex(1, 2) with a.
+30     26     11         68.5703    129.7886   89.2780    % 
+LB close or above UB, fathomed
+31     25     11         68.5703    129.7886   89.2780    % 
+UB: 129.78855421686748
+branching on CartesianIndex(1, 3) with a.
+32     26     10         68.5703    129.7886   89.2780    % 
+UB: 129.78855421686748
+branching on 1 with b.
+33     27     9          72.1594    129.7886   79.8637    % 
+UB: 129.78855421686748
+branching on CartesianIndex(2, 1) with a.
+34     28     10         72.1594    129.7886   79.8637    % 
+UB: 129.78855421686748
+branching on CartesianIndex(3, 1) with a.
+35     29     11         72.1594    129.7886   79.8637    % 
+LB close or above UB, fathomed
+36     28     11         72.1594    129.7886   79.8637    % 
+UB: 129.78855421686748
+branching on CartesianIndex(1, 2) with a.
+37     29     12         72.1594    129.7886   79.8637    % 
+UB: 129.78855421686748
+branching on CartesianIndex(2, 2) with a.
+38     30     13         72.1594    129.7886   79.8637    % 
+LB close or above UB, fathomed
+39     29     13         72.1594    129.7886   79.8637    % 
+UB: 129.78855421686748
+branching on CartesianIndex(1, 3) with a.
+40     30     14         72.1594    129.7886   79.8637    % 
+LB close or above UB, fathomed
+41     29     14         72.1594    129.7886   79.8637    % 
+UB: 129.78855421686748
+branching on CartesianIndex(1, 4) with c.
+42     30     12         72.1594    129.7886   79.8637    % 
+UB: 129.78855421686748
+branching on CartesianIndex(1, 3) with a.
+43     31     10         72.1594    129.7886   79.8637    % 
+LB close or above UB, fathomed
+44     30     9          72.1594    129.7886   79.8637    % 
+LB close or above UB, fathomed
+45     29     12         72.1714    129.7886   79.8337    % 
+UB: 129.78855421686748
+branching on 1 with b.
+46     30     12         72.1714    129.7886   79.8337    % 
+UB: 129.78855421686748
+branching on CartesianIndex(1, 4) with c.
+47     31     15         75.7605    129.7886   71.3143    % 
+UB: 129.78855421686748
+branching on CartesianIndex(1, 5) with c.
+48     32     16         75.7605    129.7886   71.3143    % 
+LB close or above UB, fathomed
+49     31     16         75.7605    129.7886   71.3143    % 
+UB: 129.78855421686748
+branching on CartesianIndex(1, 6) with c.
+50     32     17         75.7605    129.7886   71.3143    % 
+UB: 129.78855421686748
+branching on CartesianIndex(1, 7) with c.
+51     33     18         75.7605    129.7886   71.3143    % 
+LB close or above UB, fathomed
+52     32     18         75.7605    129.7886   71.3143    % 
+UB: 129.78855421686748
+branching on 1 with b.
+53     33     19         75.7605    129.7886   71.3143    % 
+LB close or above UB, fathomed
+54     32     19         75.7605    129.7886   71.3143    % 
+UB: 129.78855421686748
+branching on 2 with b.
+55     33     20         75.7605    129.7886   71.3143    % 
+UB: 129.78855421686748
+branching on 3 with b.
+56     34     21         75.7605    129.7886   71.3143    % 
+LB close or above UB, fathomed
+57     33     21         75.7605    129.7886   71.3143    % 
+UB: 127.9880187416332
+branching on 1 with b.
+58     34     22         75.7605    127.9880   68.9377    % 
+UB: 127.9880187416332
+branching on 2 with b.
+59     35     22         75.7605    127.9880   68.9377    % 
+UB: 127.9880187416332
+branching on 2 with b.
+60     36     20         75.7605    127.9880   68.9377    % 
+UB: 127.9880187416332
+branching on 3 with b.
+61     37     17         75.7605    127.9880   68.9377    % 
+LB close or above UB, fathomed
+62     36     15         75.7605    127.9880   68.9377    % 
+LB close or above UB, fathomed
+63     35     9          75.7639    127.9880   68.9301    % 
+UB: 127.9880187416332
+branching on 2 with b.
+64     36     10         75.7639    127.9880   68.9301    % 
+UB: 127.9880187416332
+branching on 3 with b.
+65     37     10         75.7639    127.9880   68.9301    % 
+UB: 127.9880187416332
+branching on 3 with b.
+66     38     9          75.7639    127.9880   68.9301    % 
+LB close or above UB, fathomed
+67     37     9          75.7656    127.9880   68.9264    % 
+UB: 127.9880187416332
+branching on CartesianIndex(3, 2) with a.
+68     38     9          75.7656    127.9880   68.9264    % 
+UB: 127.9880187416332
+branching on 2 with b.
+69     39     10         75.7725    127.9880   68.9109    % 
+LB close or above UB, fathomed
+70     38     10         75.7725    127.9880   68.9109    % 
+UB: 127.9880187416332
+branching on CartesianIndex(1, 3) with a.
+71     39     11         75.7725    127.9880   68.9109    % 
+UB: 127.9880187416332
+branching on 3 with b.
+72     40     12         75.7725    127.9880   68.9109    % 
+UB: 127.9880187416332
+branching on 1 with b.
+73     41     12         75.7725    127.9880   68.9109    % 
+UB: 127.9880187416332
+branching on 1 with b.
+74     42     11         75.7725    127.9880   68.9109    % 
+UB: 127.9880187416332
+branching on CartesianIndex(1, 4) with c.
+75     43     11         76.3726    127.9880   67.5836    % 
+UB: 127.9880187416332
+branching on CartesianIndex(1, 2) with a.
+76     44     11         76.3726    127.9880   67.5836    % 
+UB: 127.9880187416332
+branching on CartesianIndex(1, 2) with a.
+77     45     9          77.5485    127.9880   65.0425    % 
+UB: 127.9880187416332
+branching on CartesianIndex(2, 1) with a.
+78     46     9          77.5485    127.9880   65.0425    % 
+UB: 127.9880187416332
+branching on CartesianIndex(1, 2) with a.
+79     47     13         77.5730    127.9880   64.9904    % 
+UB: 127.9880187416332
+branching on CartesianIndex(1, 5) with c.
+80     48     13         77.5730    127.9880   64.9904    % 
+LB close or above UB, fathomed
+81     47     14         77.5730    127.9880   64.9904    % 
+LB close or above UB, fathomed
+82     46     14         77.5730    127.9880   64.9904    % 
+UB: 127.9880187416332
+branching on CartesianIndex(1, 6) with c.
+83     47     15         77.5730    127.9880   64.9904    % 
+UB: 127.9880187416332
+branching on CartesianIndex(1, 7) with c.
+84     48     16         77.5730    127.9880   64.9904    % 
+LB close or above UB, fathomed
+85     47     16         77.5730    127.9880   64.9904    % 
+UB: 127.9880187416332
+branching on 1 with b.
+86     48     17         77.5730    127.9880   64.9904    % 
+LB close or above UB, fathomed
+87     47     17         77.5730    127.9880   64.9904    % 
+UB: 127.9880187416332
+branching on 2 with b.
+88     48     15         77.5730    127.9880   64.9904    % 
+LB close or above UB, fathomed
+89     47     18         79.3736    127.9880   61.2477    % 
+UB: 127.9880187416332
+branching on 3 with b.
+90     48     19         79.3736    127.9880   61.2477    % 
+UB: 127.9880187416332
+branching on 1 with b.
+91     49     20         79.3736    127.9880   61.2477    % 
+UB: 127.9880187416332
+branching on 2 with b.
+92     50     20         79.3736    127.9880   61.2477    % 
+UB: 127.9880187416332
+branching on 2 with b.
+93     51     19         79.3736    127.9880   61.2477    % 
+UB: 127.9880187416332
+branching on 1 with b.
+94     52     18         79.3736    127.9880   61.2477    % 
+LB close or above UB, fathomed
+95     51     20         79.3736    127.9880   61.2477    % 
+UB: 127.9880187416332
+branching on 2 with b.
+96     52     20         79.3736    127.9880   61.2477    % 
+UB: 127.9880187416332
+branching on 2 with b.
+97     53     21         79.3736    127.9880   61.2477    % 
+UB: 127.9880187416332
+branching on 3 with b.
+98     54     21         79.3736    127.9880   61.2477    % 
+LB close or above UB, fathomed
+99     53     21         79.3736    127.9880   61.2477    % 
+UB: 127.9880187416332
+branching on 3 with b.
+100    54     21         79.3736    127.9880   61.2477    % 
+LB close or above UB, fathomed
+101    53     10         81.1496    127.9880   57.7186    % 
+UB: 127.9880187416332
+branching on 1 with b.
+102    54     10         81.1496    127.9880   57.7186    % 
+LB close or above UB, fathomed
+103    53     23         81.1664    127.9880   57.6859    % 
+LB close or above UB, fathomed
+104    52     23         81.1664    127.9880   57.6859    % 
+UB: 127.9880187416332
+branching on 3 with b.
+105    53     24         81.1664    127.9880   57.6859    % 
+LB close or above UB, fathomed
+106    52     24         81.1664    127.9880   57.6859    % 
+UB: 127.9880187416332
+branching on 1 with b.
+107    53     25         81.1664    127.9880   57.6859    % 
+UB: 127.9880187416332
+branching on 2 with b.
+108    54     25         81.1664    127.9880   57.6859    % 
+UB: 127.9880187416332
+branching on 2 with b.
+109    55     7          81.1688    127.9880   57.6813    % 
+LB close or above UB, fathomed
+110    54     7          81.1688    127.9880   57.6813    % 
+UB: 127.9880187416332
+branching on 3 with b.
+111    55     13         81.1741    127.9880   57.6710    % 
+UB: 127.9880187416332
+branching on CartesianIndex(2, 3) with a.
+112    56     14         81.1741    127.9880   57.6710    % 
+UB: 127.9880187416332
+branching on CartesianIndex(3, 3) with a.
+113    57     14         81.1741    127.9880   57.6710    % 
+UB: 127.9880187416332
+branching on CartesianIndex(1, 4) with c.
+114    58     13         81.1741    127.9880   57.6710    % 
+LB close or above UB, fathomed
+115    57     11         82.9501    127.9880   54.2952    % 
+UB: 127.9880187416332
+branching on CartesianIndex(3, 1) with a.
+116    58     11         82.9501    127.9880   54.2952    % 
+UB: 127.9880187416332
+branching on CartesianIndex(3, 1) with a.
+117    59     15         82.9746    127.9880   54.2496    % 
+UB: 127.9880187416332
+branching on CartesianIndex(1, 4) with c.
+118    60     15         82.9746    127.9880   54.2496    % 
+UB: 127.9880187416332
+branching on CartesianIndex(1, 4) with c.
+119    61     16         82.9746    127.9880   54.2496    % 
+UB: 127.9880187416332
+branching on CartesianIndex(1, 5) with c.
+120    62     17         82.9746    127.9880   54.2496    % 
+LB close or above UB, fathomed
+121    61     17         82.9746    127.9880   54.2496    % 
+UB: 127.9880187416332
+branching on CartesianIndex(1, 6) with c.
+122    62     16         82.9746    127.9880   54.2496    % 
+LB close or above UB, fathomed
+123    61     22         82.9746    127.9880   54.2496    % 
+UB: 127.9880187416332
+branching on 1 with b.
+124    62     22         82.9746    127.9880   54.2496    % 
+UB: 127.9880187416332
+branching on 1 with b.
+125    63     23         82.9746    127.9880   54.2496    % 
+UB: 127.9880187416332
+branching on 2 with b.
+126    64     24         82.9746    127.9880   54.2496    % 
+UB: 127.9880187416332
+branching on 3 with b.
+127    65     24         82.9746    127.9880   54.2496    % 
+UB: 127.9880187416332
+branching on 3 with b.
+128    66     23         82.9746    127.9880   54.2496    % 
+UB: 127.9880187416332
+branching on 2 with b.
+129    67     18         82.9746    127.9880   54.2496    % 
+UB: 127.9880187416332
+branching on CartesianIndex(1, 7) with c.
+130    68     19         82.9746    127.9880   54.2496    % 
+LB close or above UB, fathomed
+131    67     19         82.9746    127.9880   54.2496    % 
+UB: 127.9880187416332
+branching on 2 with b.
+132    68     20         82.9746    127.9880   54.2496    % 
+UB: 127.9880187416332
+branching on 3 with b.
+133    69     20         82.9746    127.9880   54.2496    % 
+UB: 127.9880187416332
+branching on 3 with b.
+134    70     18         82.9746    127.9880   54.2496    % 
+UB: 127.9880187416332
+branching on CartesianIndex(1, 7) with c.
+135    71     26         82.9746    127.9880   54.2496    % 
+UB: 127.9880187416332
+branching on 3 with b.
+136    72     26         82.9746    127.9880   54.2496    % 
+UB: 126.18748326639894
+branching on 3 with b.
+137    73     22         82.9746    126.1875   52.0796    % 
+UB: 126.18748326639894
+branching on 1 with b.
+138    72     22         82.9746    126.1875   52.0796    % 
+UB: 126.18748326639894
+branching on 1 with b.
+139    73     23         82.9746    126.1875   52.0796    % 
+UB: 126.18748326639894
+branching on 2 with b.
+140    74     24         82.9746    126.1875   52.0796    % 
+UB: 126.18748326639894
+branching on 3 with b.
+141    75     24         82.9746    126.1875   52.0796    % 
+UB: 126.18748326639894
+branching on 3 with b.
+142    76     23         82.9746    126.1875   52.0796    % 
+UB: 126.18748326639894
+branching on 2 with b.
+143    77     24         86.5757    126.1875   45.7539    % 
+UB: 126.18748326639894
+branching on 3 with b.
+144    78     24         86.5757    126.1875   45.7539    % 
+UB: 126.18748326639894
+branching on 3 with b.
+145    79     27         86.5757    126.1875   45.7539    % 
+UB: 126.18748326639894
+branching on 1 with b.
+146    80     27         86.5757    126.1875   45.7539    % 
+UB: 124.38694779116467
+branching on 1 with b.
+147    81     24         86.5757    124.3869   43.6742    % 
+UB: 124.38694779116467
+branching on 3 with b.
+148    80     24         86.5757    124.3869   43.6742    % 
+UB: 124.38694779116467
+branching on 3 with b.
+149    81     21         88.3762    124.3869   40.7470    % 
+UB: 124.38694779116467
+branching on 1 with b.
+150    82     22         88.3762    124.3869   40.7470    % 
+UB: 124.38694779116467
+branching on 2 with b.
+151    83     22         88.3762    124.3869   40.7470    % 
+LB close or above UB, fathomed
+152    82     21         88.3762    124.3869   40.7470    % 
+LB close or above UB, fathomed
+153    81     12         90.1575    124.3869   37.9662    % 
+LB close or above UB, fathomed
+154    80     12         90.1575    124.3869   37.9662    % 
+UB: 124.38694779116467
+branching on CartesianIndex(1, 2) with a.
+155    81     13         90.1575    124.3869   37.9662    % 
+LB close or above UB, fathomed
+156    80     13         90.1575    124.3869   37.9662    % 
+UB: 124.38694779116467
+branching on CartesianIndex(1, 3) with a.
+157    81     8          90.1715    124.3869   37.9449    % 
+UB: 124.38694779116467
+branching on CartesianIndex(1, 1) with a.
+158    82     9          90.1715    124.3869   37.9449    % 
+UB: 124.38694779116467
+branching on CartesianIndex(2, 1) with a.
+159    83     9          90.1715    124.3869   37.9449    % 
+LB close or above UB, fathomed
+160    82     8          90.1715    124.3869   37.9449    % 
+UB: 124.38694779116467
+branching on CartesianIndex(1, 1) with a.
+161    83     12         90.3200    124.3869   37.7180    % 
+UB: 124.38694779116467
+branching on 1 with b.
+162    84     12         90.3200    124.3869   37.7180    % 
+LB close or above UB, fathomed
+163    83     10         91.9720    124.3869   35.2444    % 
+LB close or above UB, fathomed
+164    82     10         91.9720    124.3869   35.2444    % 
+UB: 124.38694779116467
+branching on CartesianIndex(1, 2) with a.
+165    83     11         91.9720    124.3869   35.2444    % 
+LB close or above UB, fathomed
+166    82     11         91.9720    124.3869   35.2444    % 
+UB: 124.38694779116467
+branching on 1 with b.
+167    83     23         91.9730    124.3869   35.2429    % 
+LB close or above UB, fathomed
+168    82     23         91.9730    124.3869   35.2429    % 
+UB: 124.38694779116467
+branching on 3 with b.
+169    83     24         91.9730    124.3869   35.2429    % 
+LB close or above UB, fathomed
+170    82     24         91.9730    124.3869   35.2429    % 
+UB: 124.38694779116467
+branching on 1 with b.
+171    83     25         91.9730    124.3869   35.2429    % 
+UB: 124.38694779116467
+branching on 2 with b.
+172    84     25         91.9730    124.3869   35.2429    % 
+UB: 124.38694779116467
+branching on 2 with b.
+173    85     13         92.8776    124.3869   33.9257    % 
+UB: 124.38694779116467
+branching on 2 with b.
+174    86     13         92.8776    124.3869   33.9257    % 
+UB: 124.38694779116467
+branching on CartesianIndex(2, 2) with a.
+175    87     14         93.2422    124.3869   33.4020    % 
+LB close or above UB, fathomed
+176    86     14         93.2422    124.3869   33.4020    % 
+UB: 124.38694779116467
+branching on 3 with b.
+177    87     5          93.7278    124.3869   32.7108    % 
+UB: 124.38694779116467
+branching on CartesianIndex(2, 1) with a.
+178    88     6          93.7278    124.3869   32.7108    % 
+LB close or above UB, fathomed
+179    87     6          93.7278    124.3869   32.7108    % 
+UB: 124.38694779116467
+branching on CartesianIndex(1, 2) with a.
+180    88     7          93.7278    124.3869   32.7108    % 
+LB close or above UB, fathomed
+181    87     7          93.7278    124.3869   32.7108    % 
+UB: 124.38694779116467
+branching on 1 with b.
+182    88     8          93.7278    124.3869   32.7108    % 
+LB close or above UB, fathomed
+183    87     8          93.7278    124.3869   32.7108    % 
+UB: 124.38694779116467
+branching on CartesianIndex(1, 4) with c.
+184    88     9          93.7278    124.3869   32.7108    % 
+UB: 124.38694779116467
+branching on CartesianIndex(1, 5) with c.
+185    89     10         93.7278    124.3869   32.7108    % 
+LB close or above UB, fathomed
+186    88     10         93.7278    124.3869   32.7108    % 
+UB: 124.38694779116467
+branching on CartesianIndex(1, 7) with c.
+187    89     11         93.7278    124.3869   32.7108    % 
+LB close or above UB, fathomed
+188    88     11         93.7278    124.3869   32.7108    % 
+UB: 124.38694779116467
+branching on 1 with b.
+189    89     12         93.7278    124.3869   32.7108    % 
+LB close or above UB, fathomed
+190    88     12         93.7278    124.3869   32.7108    % 
+UB: 124.38694779116467
+branching on 2 with b.
+191    89     9          93.7278    124.3869   32.7108    % 
+LB close or above UB, fathomed
+192    88     5          93.7278    124.3869   32.7108    % 
+UB: 124.38694779116467
+branching on 1 with b.
+193    89     6          93.7278    124.3869   32.7108    % 
+LB close or above UB, fathomed
+194    88     6          93.7278    124.3869   32.7108    % 
+UB: 124.38694779116467
+branching on CartesianIndex(1, 2) with a.
+195    89     12         93.7725    124.3869   32.6475    % 
+UB: 124.38694779116467
+branching on 2 with b.
+196    90     13         93.7725    124.3869   32.6475    % 
+UB: 124.38694779116467
+branching on CartesianIndex(1, 3) with a.
+197    91     14         93.7725    124.3869   32.6475    % 
+UB: 124.38694779116467
+branching on CartesianIndex(2, 3) with a.
+198    92     14         93.7725    124.3869   32.6475    % 
+UB: 124.38694779116467
+branching on CartesianIndex(1, 4) with c.
+199    93     13         93.7725    124.3869   32.6475    % 
+LB close or above UB, fathomed
+200    92     12         93.7725    124.3869   32.6475    % 
+LB close or above UB, fathomed
+201    91     15         93.7778    124.3869   32.6400    % 
+UB: 124.38694779116467
+branching on 3 with b.
+202    92     15         93.7778    124.3869   32.6400    % 
+LB close or above UB, fathomed
+203    91     16         93.7778    124.3869   32.6400    % 
+UB: 124.38694779116467
+branching on CartesianIndex(1, 5) with c.
+204    92     17         93.7778    124.3869   32.6400    % 
+LB close or above UB, fathomed
+205    91     17         93.7778    124.3869   32.6400    % 
+UB: 124.38694779116467
+branching on CartesianIndex(1, 6) with c.
+206    92     18         93.7778    124.3869   32.6400    % 
+UB: 124.38694779116467
+branching on CartesianIndex(1, 7) with c.
+207    93     19         93.7778    124.3869   32.6400    % 
+LB close or above UB, fathomed
+208    92     19         93.7778    124.3869   32.6400    % 
+UB: 124.38694779116467
+branching on 1 with b.
+209    93     18         93.7778    124.3869   32.6400    % 
+UB: 124.38694779116467
+branching on CartesianIndex(1, 7) with c.
+210    94     16         93.7778    124.3869   32.6400    % 
+UB: 124.38694779116467
+branching on CartesianIndex(1, 5) with c.
+211    95     23         93.7778    124.3869   32.6400    % 
+UB: 124.38694779116467
+branching on 3 with b.
+212    96     24         93.7778    124.3869   32.6400    % 
+UB: 124.38694779116467
+branching on 1 with b.
+213    97     25         93.7778    124.3869   32.6400    % 
+UB: 124.38694779116467
+branching on 2 with b.
+214    98     25         93.7778    124.3869   32.6400    % 
+UB: 124.38694779116467
+branching on 2 with b.
+215    99     24         93.7778    124.3869   32.6400    % 
+LB close or above UB, fathomed
+216    98     23         93.7778    124.3869   32.6400    % 
+LB close or above UB, fathomed
+217    97     9          93.7778    124.3869   32.6400    % 
+UB: 124.38694779116467
+branching on 1 with b.
+218    98     10         93.7778    124.3869   32.6400    % 
+LB close or above UB, fathomed
+219    97     10         93.7778    124.3869   32.6400    % 
+UB: 124.38694779116467
+branching on 2 with b.
+220    98     11         93.7778    124.3869   32.6400    % 
+UB: 124.38694779116467
+branching on 3 with b.
+221    99     12         93.7778    124.3869   32.6400    % 
+UB: 124.38694779116467
+branching on CartesianIndex(2, 1) with a.
+222    100    12         93.7778    124.3869   32.6400    % 
+LB close or above UB, fathomed
+223    99     11         93.7778    124.3869   32.6400    % 
+UB: 124.38694779116467
+branching on CartesianIndex(2, 1) with a.
+224    100    9          93.7778    124.3869   32.6400    % 
+LB close or above UB, fathomed
+225    99     17         93.7778    124.3869   32.6400    % 
+LB close or above UB, fathomed
+226    98     17         93.7778    124.3869   32.6400    % 
+UB: 124.38694779116467
+branching on CartesianIndex(1, 6) with c.
+227    99     18         93.7778    124.3869   32.6400    % 
+UB: 124.38694779116467
+branching on CartesianIndex(1, 7) with c.
+228    100    19         93.7778    124.3869   32.6400    % 
+LB close or above UB, fathomed
+229    99     19         93.7778    124.3869   32.6400    % 
+UB: 124.38694779116467
+branching on 1 with b.
+230    100    20         93.7778    124.3869   32.6400    % 
+UB: 124.38694779116467
+branching on 2 with b.
+231    101    21         93.7778    124.3869   32.6400    % 
+UB: 124.38694779116467
+branching on 3 with b.
+232    102    21         93.7778    124.3869   32.6400    % 
+LB close or above UB, fathomed
+233    101    20         93.7778    124.3869   32.6400    % 
+LB close or above UB, fathomed
+234    100    18         93.7778    124.3869   32.6400    % 
+UB: 124.38694779116467
+branching on CartesianIndex(1, 7) with c.
+235    101    20         93.7778    124.3869   32.6400    % 
+UB: 124.38694779116467
+branching on 2 with b.
+236    102    21         93.7778    124.3869   32.6400    % 
+UB: 124.38694779116467
+branching on 3 with b.
+237    103    21         93.7778    124.3869   32.6400    % 
+LB close or above UB, fathomed
+238    102    20         93.7778    124.3869   32.6400    % 
+LB close or above UB, fathomed
+239    101    21         93.7778    124.3869   32.6400    % 
+UB: 124.38694779116467
+branching on 3 with b.
+240    102    21         93.7778    124.3869   32.6400    % 
+LB close or above UB, fathomed
+241    101    13         93.7778    124.3869   32.6400    % 
+UB: 124.38694779116467
+branching on CartesianIndex(3, 1) with a.
+242    102    14         93.7778    124.3869   32.6400    % 
+LB close or above UB, fathomed
+243    101    14         93.7778    124.3869   32.6400    % 
+UB: 124.38694779116467
+branching on CartesianIndex(1, 2) with a.
+244    102    13         93.7778    124.3869   32.6400    % 
+LB close or above UB, fathomed
+245    101    13         93.7778    124.3869   32.6400    % 
+LB close or above UB, fathomed
+246    100    13         93.7778    124.3869   32.6400    % 
+UB: 124.38694779116467
+branching on CartesianIndex(2, 3) with a.
+247    101    14         93.7778    124.3869   32.6400    % 
+UB: 124.38694779116467
+branching on CartesianIndex(3, 3) with a.
+248    102    15         93.7778    124.3869   32.6400    % 
+UB: 124.38694779116467
+branching on CartesianIndex(1, 4) with c.
+249    103    15         93.7778    124.3869   32.6400    % 
+UB: 124.38694779116467
+branching on CartesianIndex(1, 4) with c.
+250    104    14         93.7778    124.3869   32.6400    % 
+LB close or above UB, fathomed
+251    103    9          93.7778    124.3869   32.6400    % 
+UB: 124.38694779116467
+branching on CartesianIndex(1, 1) with a.
+252    104    9          93.7778    124.3869   32.6400    % 
+UB: 124.38694779116467
+branching on CartesianIndex(1, 1) with a.
+253    105    8          95.5616    124.3869   30.1642    % 
+UB: 124.38694779116467
+branching on 3 with b.
+254    106    8          95.5616    124.3869   30.1642    % 
+UB: 124.38694779116467
+branching on 3 with b.
+255    107    22         95.5784    124.3869   30.1413    % 
+UB: 124.38694779116467
+branching on 1 with b.
+256    108    23         95.5784    124.3869   30.1413    % 
+UB: 124.38694779116467
+branching on 2 with b.
+257    109    23         95.5784    124.3869   30.1413    % 
+UB: 124.38694779116467
+branching on 2 with b.
+258    110    22         95.5784    124.3869   30.1413    % 
+LB close or above UB, fathomed
+259    109    21         95.5784    124.3869   30.1413    % 
+UB: 124.38694779116467
+branching on 3 with b.
+260    110    21         95.5784    124.3869   30.1413    % 
+LB close or above UB, fathomed
+261    109    15         95.5784    124.3869   30.1413    % 
+UB: 124.38694779116467
+branching on CartesianIndex(2, 2) with a.
+262    110    15         95.5784    124.3869   30.1413    % 
+LB close or above UB, fathomed
+263    109    26         95.5784    124.3869   30.1413    % 
+UB: 124.38694779116467
+branching on 3 with b.
+264    110    26         95.5784    124.3869   30.1413    % 
+UB: 124.38694779116467
+branching on 3 with b.
+265    111    27         95.5784    124.3869   30.1413    % 
+LB close or above UB, fathomed
+266    110    27         95.5784    124.3869   30.1413    % 
+UB: 124.38694779116467
+branching on 1 with b.
+267    111    23         95.5784    124.3869   30.1413    % 
+UB: 124.38694779116467
+branching on 2 with b.
+268    112    23         95.5784    124.3869   30.1413    % 
+UB: 124.38694779116467
+branching on 2 with b.
+269    113    13         95.5784    124.3869   30.1413    % 
+UB: 124.38694779116467
+branching on 2 with b.
+270    114    13         95.5784    124.3869   30.1413    % 
+LB close or above UB, fathomed
+271    113    12         96.0954    124.3869   29.4412    % 
+UB: 124.38694779116467
+branching on CartesianIndex(1, 5) with c.
+272    114    12         96.0954    124.3869   29.4412    % 
+LB close or above UB, fathomed
+273    113    7          97.3289    124.3869   27.8006    % 
+UB: 124.38694779116467
+branching on 1 with b.
+274    114    7          97.3289    124.3869   27.8006    % 
+LB close or above UB, fathomed
+275    113    16         97.3576    124.3869   27.7630    % 
+LB close or above UB, fathomed
+276    112    16         97.3576    124.3869   27.7630    % 
+UB: 124.38694779116467
+branching on CartesianIndex(1, 3) with a.
+277    113    15         97.3736    124.3869   27.7419    % 
+UB: 124.38694779116467
+branching on CartesianIndex(3, 3) with a.
+278    114    16         97.3736    124.3869   27.7419    % 
+UB: 124.38694779116467
+branching on CartesianIndex(1, 4) with c.
+279    115    17         97.3736    124.3869   27.7419    % 
+UB: 124.38694779116467
+branching on CartesianIndex(1, 5) with c.
+280    116    18         97.3736    124.3869   27.7419    % 
+LB close or above UB, fathomed
+281    115    18         97.3736    124.3869   27.7419    % 
+UB: 124.38694779116467
+branching on 3 with b.
+282    116    19         97.3736    124.3869   27.7419    % 
+UB: 124.38694779116467
+branching on CartesianIndex(1, 6) with c.
+283    117    19         97.3736    124.3869   27.7419    % 
+UB: 124.38694779116467
+branching on CartesianIndex(1, 6) with c.
+284    118    17         97.3736    124.3869   27.7419    % 
+LB close or above UB, fathomed
+285    117    16         97.3736    124.3869   27.7419    % 
+UB: 124.38694779116467
+branching on CartesianIndex(1, 4) with c.
+286    118    15         97.3736    124.3869   27.7419    % 
+UB: 124.38694779116467
+branching on CartesianIndex(1, 4) with c.
+287    119    16         97.3789    124.3869   27.7350    % 
+UB: 124.38694779116467
+branching on CartesianIndex(1, 5) with c.
+288    120    16         97.3789    124.3869   27.7350    % 
+LB close or above UB, fathomed
+289    119    17         97.3789    124.3869   27.7350    % 
+LB close or above UB, fathomed
+290    118    17         97.3789    124.3869   27.7350    % 
+UB: 124.38694779116467
+branching on 2 with b.
+291    119    18         97.3789    124.3869   27.7350    % 
+LB close or above UB, fathomed
+292    118    18         97.3789    124.3869   27.7350    % 
+UB: 124.38694779116467
+branching on CartesianIndex(1, 6) with c.
+293    119    20         97.3789    124.3869   27.7350    % 
+UB: 124.38694779116467
+branching on CartesianIndex(1, 7) with c.
+294    120    20         97.3789    124.3869   27.7350    % 
+UB: 124.38694779116467
+branching on CartesianIndex(1, 7) with c.
+295    121    21         97.3789    124.3869   27.7350    % 
+LB close or above UB, fathomed
+296    120    21         97.3789    124.3869   27.7350    % 
+UB: 124.38694779116467
+branching on 1 with b.
+297    121    22         97.3789    124.3869   27.7350    % 
+UB: 124.38694779116467
+branching on 2 with b.
+298    122    22         97.3789    124.3869   27.7350    % 
+LB close or above UB, fathomed
+299    121    22         97.3789    124.3869   27.7350    % 
+UB: 124.38694779116467
+branching on 1 with b.
+300    122    22         97.3789    124.3869   27.7350    % 
+UB: 124.38694779116467
+branching on 1 with b.
+301    123    23         97.3789    124.3869   27.7350    % 
+UB: 124.38694779116467
+branching on 2 with b.
+302    124    23         97.3789    124.3869   27.7350    % 
+UB: 124.38694779116467
+branching on 2 with b.
+303    125    24         97.3789    124.3869   27.7350    % 
+UB: 124.38694779116467
+branching on 3 with b.
+304    126    24         97.3789    124.3869   27.7350    % 
+UB: 124.38694779116467
+branching on 3 with b.
+305    127    22         97.3789    124.3869   27.7350    % 
+UB: 124.38694779116467
+branching on 1 with b.
+306    128    22         97.3789    124.3869   27.7350    % 
+UB: 124.38694779116467
+branching on 1 with b.
+307    129    23         97.3789    124.3869   27.7350    % 
+UB: 124.38694779116467
+branching on 2 with b.
+308    130    24         97.3789    124.3869   27.7350    % 
+UB: 124.38694779116467
+branching on 3 with b.
+309    131    24         97.3789    124.3869   27.7350    % 
+UB: 124.38694779116467
+branching on 3 with b.
+310    132    23         97.3789    124.3869   27.7350    % 
+UB: 124.38694779116467
+branching on 2 with b.
+311    133    22         97.3789    124.3869   27.7350    % 
+UB: 124.38694779116467
+branching on 1 with b.
+312    134    23         97.3789    124.3869   27.7350    % 
+UB: 124.38694779116467
+branching on 2 with b.
+313    135    24         97.3789    124.3869   27.7350    % 
+UB: 124.38694779116467
+branching on 3 with b.
+314    136    24         97.3789    124.3869   27.7350    % 
+UB: 124.38694779116467
+branching on 3 with b.
+315    137    23         97.3789    124.3869   27.7350    % 
+UB: 124.38694779116467
+branching on 2 with b.
+316    138    22         97.3789    124.3869   27.7350    % 
+LB close or above UB, fathomed
+317    137    28         97.3789    124.3869   27.7350    % 
+UB: 124.38694779116467
+branching on 2 with b.
+318    138    28         97.3789    124.3869   27.7350    % 
+UB: 122.5864123159304
+branching on 2 with b.
+319    139    29         97.3789    122.5864   25.8860    % 
+UB: 122.5864123159304
+branching on 3 with b.
+320    136    30         97.3789    122.5864   25.8860    % 
+UB: 122.5864123159304
+branching on 1 with b.
+321    137    30         97.3789    122.5864   25.8860    % 
+UB: 122.5864123159304
+branching on 1 with b.
+322    138    29         97.3789    122.5864   25.8860    % 
+UB: 122.5864123159304
+branching on 3 with b.
+323    139    15         97.3789    122.5864   25.8860    % 
+UB: 122.5864123159304
+branching on CartesianIndex(2, 2) with a.
+324    140    15         97.3789    122.5864   25.8860    % 
+LB close or above UB, fathomed
+325    139    8          99.1295    122.5864   23.6630    % 
+UB: 122.5864123159304
+branching on CartesianIndex(2, 2) with a.
+326    140    9          99.1295    122.5864   23.6630    % 
+LB close or above UB, fathomed
+327    139    9          99.1295    122.5864   23.6630    % 
+UB: 122.5864123159304
+branching on CartesianIndex(1, 4) with c.
+328    140    10         99.1295    122.5864   23.6630    % 
+UB: 122.5864123159304
+branching on 2 with b.
+329    141    11         99.1295    122.5864   23.6630    % 
+LB close or above UB, fathomed
+330    140    11         99.1295    122.5864   23.6630    % 
+UB: 122.5864123159304
+branching on CartesianIndex(1, 5) with c.
+331    141    12         99.1295    122.5864   23.6630    % 
+LB close or above UB, fathomed
+332    140    12         99.1295    122.5864   23.6630    % 
+UB: 122.5864123159304
+branching on CartesianIndex(1, 7) with c.
+333    141    13         99.1295    122.5864   23.6630    % 
+LB close or above UB, fathomed
+334    140    13         99.1295    122.5864   23.6630    % 
+UB: 122.5864123159304
+branching on 1 with b.
+335    141    14         99.1295    122.5864   23.6630    % 
+UB: 122.5864123159304
+branching on 2 with b.
+336    142    14         99.1295    122.5864   23.6630    % 
+LB close or above UB, fathomed
+337    141    10         99.1295    122.5864   23.6630    % 
+LB close or above UB, fathomed
+338    140    8          99.1295    122.5864   23.6630    % 
+LB close or above UB, fathomed
+339    139    26         99.1718    122.5864   23.6102    % 
+UB: 122.5864123159304
+branching on 3 with b.
+340    140    26         99.1718    122.5864   23.6102    % 
+UB: 122.5864123159304
+branching on 3 with b.
+341    141    24         99.1795    122.5864   23.6006    % 
+UB: 122.5864123159304
+branching on 3 with b.
+342    142    24         99.1795    122.5864   23.6006    % 
+UB: 122.5864123159304
+branching on 3 with b.
+343    143    17         99.1795    122.5864   23.6006    % 
+LB close or above UB, fathomed
+344    142    17         99.1795    122.5864   23.6006    % 
+UB: 122.5864123159304
+branching on CartesianIndex(1, 4) with c.
+345    143    13         99.1795    122.5864   23.6006    % 
+LB close or above UB, fathomed
+346    142    13         99.1795    122.5864   23.6006    % 
+UB: 122.5864123159304
+branching on CartesianIndex(1, 6) with c.
+347    143    14         99.1795    122.5864   23.6006    % 
+UB: 122.5864123159304
+branching on 3 with b.
+348    144    15         99.1795    122.5864   23.6006    % 
+UB: 122.5864123159304
+branching on 1 with b.
+349    145    16         99.1795    122.5864   23.6006    % 
+UB: 122.5864123159304
+branching on CartesianIndex(1, 7) with c.
+350    146    16         99.1795    122.5864   23.6006    % 
+LB close or above UB, fathomed
+351    145    15         99.1795    122.5864   23.6006    % 
+UB: 122.5864123159304
+branching on CartesianIndex(1, 7) with c.
+352    146    16         99.1795    122.5864   23.6006    % 
+LB close or above UB, fathomed
+353    145    16         99.1795    122.5864   23.6006    % 
+UB: 122.5864123159304
+branching on 1 with b.
+354    146    17         99.1795    122.5864   23.6006    % 
+UB: 122.5864123159304
+branching on 2 with b.
+355    147    18         99.1795    122.5864   23.6006    % 
+LB close or above UB, fathomed
+356    146    18         99.1795    122.5864   23.6006    % 
+UB: 122.5864123159304
+branching on 3 with b.
+357    147    17         99.1795    122.5864   23.6006    % 
+LB close or above UB, fathomed
+358    146    14         99.1795    122.5864   23.6006    % 
+UB: 122.5864123159304
+branching on CartesianIndex(1, 7) with c.
+359    147    15         99.1795    122.5864   23.6006    % 
+UB: 122.5864123159304
+branching on 3 with b.
+360    148    15         99.1795    122.5864   23.6006    % 
+UB: 122.5864123159304
+branching on 3 with b.
+361    149    16         99.1795    122.5864   23.6006    % 
+UB: 122.5864123159304
+branching on 1 with b.
+362    150    17         99.1795    122.5864   23.6006    % 
+UB: 122.5864123159304
+branching on 2 with b.
+363    151    17         99.1795    122.5864   23.6006    % 
+LB close or above UB, fathomed
+364    150    16         99.1795    122.5864   23.6006    % 
+UB: 122.5864123159304
+branching on 1 with b.
+365    151    17         99.1795    122.5864   23.6006    % 
+UB: 122.5864123159304
+branching on 2 with b.
+366    152    17         99.1795    122.5864   23.6006    % 
+LB close or above UB, fathomed
+367    151    14         99.1795    122.5864   23.6006    % 
+LB close or above UB, fathomed
+368    150    14         99.1795    122.5864   23.6006    % 
+UB: 122.5864123159304
+branching on CartesianIndex(2, 3) with a.
+369    151    24         99.1795    122.5864   23.6006    % 
+LB close or above UB, fathomed
+370    150    24         99.1795    122.5864   23.6006    % 
+UB: 122.5864123159304
+branching on 3 with b.
+371    151    24         99.1795    122.5864   23.6006    % 
+LB close or above UB, fathomed
+372    150    24         99.1795    122.5864   23.6006    % 
+UB: 122.5864123159304
+branching on 3 with b.
+373    151    25         99.1795    122.5864   23.6006    % 
+UB: 122.5864123159304
+branching on 1 with b.
+374    152    25         99.1795    122.5864   23.6006    % 
+UB: 122.5864123159304
+branching on 1 with b.
+375    153    26         99.1795    122.5864   23.6006    % 
+UB: 122.5864123159304
+branching on 2 with b.
+376    154    26         99.1795    122.5864   23.6006    % 
+UB: 122.5864123159304
+branching on 2 with b.
+377    155    25         99.1795    122.5864   23.6006    % 
+UB: 122.5864123159304
+branching on 1 with b.
+378    156    26         99.1795    122.5864   23.6006    % 
+UB: 122.5864123159304
+branching on 2 with b.
+379    157    26         99.1795    122.5864   23.6006    % 
+UB: 122.5864123159304
+branching on 2 with b.
+380    158    25         99.1795    122.5864   23.6006    % 
+UB: 122.5864123159304
+branching on 1 with b.
+381    159    26         99.1795    122.5864   23.6006    % 
+UB: 122.5864123159304
+branching on 2 with b.
+382    160    26         99.1795    122.5864   23.6006    % 
+UB: 122.5864123159304
+branching on 2 with b.
+383    161    11         99.1795    122.5864   23.6006    % 
+LB close or above UB, fathomed
+384    160    11         99.1795    122.5864   23.6006    % 
+UB: 122.5864123159304
+branching on CartesianIndex(1, 2) with a.
+385    161    20         100.9747   122.5864   21.4031    % 
+LB close or above UB, fathomed
+386    160    20         100.9747   122.5864   21.4031    % 
+UB: 122.5864123159304
+branching on CartesianIndex(1, 7) with c.
+387    161    15         100.9800   122.5864   21.3967    % 
+UB: 122.5864123159304
+branching on CartesianIndex(1, 5) with c.
+388    162    15         100.9800   122.5864   21.3967    % 
+LB close or above UB, fathomed
+389    161    16         100.9800   122.5864   21.3967    % 
+LB close or above UB, fathomed
+390    160    16         100.9800   122.5864   21.3967    % 
+UB: 122.5864123159304
+branching on CartesianIndex(1, 6) with c.
+391    161    17         100.9800   122.5864   21.3967    % 
+UB: 122.5864123159304
+branching on CartesianIndex(1, 7) with c.
+392    162    17         100.9800   122.5864   21.3967    % 
+UB: 122.5864123159304
+branching on CartesianIndex(1, 7) with c.
+393    163    18         100.9800   122.5864   21.3967    % 
+LB close or above UB, fathomed
+394    162    18         100.9800   122.5864   21.3967    % 
+UB: 122.5864123159304
+branching on 2 with b.
+395    163    19         100.9800   122.5864   21.3967    % 
+LB close or above UB, fathomed
+396    162    19         100.9800   122.5864   21.3967    % 
+UB: 122.5864123159304
+branching on 3 with b.
+397    163    27         100.9800   122.5864   21.3967    % 
+UB: 122.5864123159304
+branching on 3 with b.
+398    164    27         100.9800   122.5864   21.3967    % 
+UB: 122.5864123159304
+branching on 3 with b.
+399    165    27         100.9800   122.5864   21.3967    % 
+UB: 122.5864123159304
+branching on 3 with b.
+400    166    27         100.9800   122.5864   21.3967    % 
+UB: 122.5864123159304
+branching on 3 with b.
+401    167    27         100.9800   122.5864   21.3967    % 
+UB: 122.5864123159304
+branching on 3 with b.
+402    168    27         100.9800   122.5864   21.3967    % 
+UB: 122.5864123159304
+branching on 3 with b.
+403    169    23         100.9800   122.5864   21.3967    % 
+UB: 122.5864123159304
+branching on 2 with b.
+404    170    23         100.9800   122.5864   21.3967    % 
+UB: 122.5864123159304
+branching on 2 with b.
+405    171    9          100.9800   122.5864   21.3967    % 
+UB: 122.5864123159304
+branching on CartesianIndex(2, 1) with a.
+406    172    10         100.9800   122.5864   21.3967    % 
+LB close or above UB, fathomed
+407    171    10         100.9800   122.5864   21.3967    % 
+UB: 122.5864123159304
+branching on CartesianIndex(1, 2) with a.
+408    172    9          100.9800   122.5864   21.3967    % 
+LB close or above UB, fathomed
+409    171    27         100.9800   122.5864   21.3967    % 
+LB close or above UB, fathomed
+410    170    27         100.9800   122.5864   21.3967    % 
+UB: 122.5864123159304
+branching on 1 with b.
+411    171    16         100.9800   122.5864   21.3967    % 
+LB close or above UB, fathomed
+412    170    16         100.9800   122.5864   21.3967    % 
+UB: 122.5864123159304
+branching on CartesianIndex(1, 3) with a.
+413    171    17         100.9800   122.5864   21.3967    % 
+LB close or above UB, fathomed
+414    170    17         100.9800   122.5864   21.3967    % 
+UB: 122.5864123159304
+branching on CartesianIndex(1, 4) with c.
+415    171    16         100.9800   122.5864   21.3967    % 
+LB close or above UB, fathomed
+416    170    16         100.9800   122.5864   21.3967    % 
+UB: 122.5864123159304
+branching on 1 with b.
+417    171    17         100.9800   122.5864   21.3967    % 
+UB: 122.5864123159304
+branching on 2 with b.
+418    172    17         100.9800   122.5864   21.3967    % 
+LB close or above UB, fathomed
+419    171    13         100.9962   122.5864   21.3773    % 
+LB close or above UB, fathomed
+420    170    13         100.9962   122.5864   21.3773    % 
+UB: 122.5864123159304
+branching on CartesianIndex(1, 4) with c.
+421    171    12         100.9968   122.5864   21.3765    % 
+LB close or above UB, fathomed
+422    170    12         100.9968   122.5864   21.3765    % 
+UB: 122.5864123159304
+branching on 2 with b.
+423    171    13         102.7305   122.5864   19.3281    % 
+LB close or above UB, fathomed
+424    170    13         102.7305   122.5864   19.3281    % 
+UB: 122.5864123159304
+branching on 1 with b.
+425    171    15         102.7305   122.5864   19.3281    % 
+LB close or above UB, fathomed
+426    170    15         102.7305   122.5864   19.3281    % 
+UB: 122.5864123159304
+branching on 1 with b.
+427    171    9          102.7752   122.5864   19.2763    % 
+LB close or above UB, fathomed
+428    170    9          102.7752   122.5864   19.2763    % 
+LB close or above UB, fathomed
+429    169    18         102.7805   122.5864   19.2701    % 
+LB close or above UB, fathomed
+430    168    18         102.7805   122.5864   19.2701    % 
+UB: 122.5864123159304
+branching on 2 with b.
+431    169    19         102.7805   122.5864   19.2701    % 
+LB close or above UB, fathomed
+432    168    19         102.7805   122.5864   19.2701    % 
+UB: 122.5864123159304
+branching on 3 with b.
+433    169    19         102.7805   122.5864   19.2701    % 
+UB: 122.5864123159304
+branching on CartesianIndex(1, 7) with c.
+434    170    19         102.7805   122.5864   19.2701    % 
+UB: 122.5864123159304
+branching on CartesianIndex(1, 7) with c.
+435    171    20         102.7805   122.5864   19.2701    % 
+LB close or above UB, fathomed
+436    170    20         102.7805   122.5864   19.2701    % 
+UB: 122.5864123159304
+branching on 3 with b.
+437    171    21         102.7805   122.5864   19.2701    % 
+UB: 122.5864123159304
+branching on 1 with b.
+438    172    21         102.7805   122.5864   19.2701    % 
+UB: 122.5864123159304
+branching on 1 with b.
+439    173    22         102.7805   122.5864   19.2701    % 
+UB: 122.5864123159304
+branching on 2 with b.
+440    174    22         102.7805   122.5864   19.2701    % 
+LB close or above UB, fathomed
+441    173    16         102.7805   122.5864   19.2701    % 
+UB: 122.5864123159304
+branching on CartesianIndex(1, 5) with c.
+442    174    16         102.7805   122.5864   19.2701    % 
+LB close or above UB, fathomed
+443    173    17         102.7805   122.5864   19.2701    % 
+LB close or above UB, fathomed
+444    172    17         102.7805   122.5864   19.2701    % 
+UB: 122.5864123159304
+branching on 2 with b.
+445    173    18         102.7805   122.5864   19.2701    % 
+LB close or above UB, fathomed
+446    172    18         102.7805   122.5864   19.2701    % 
+UB: 122.5864123159304
+branching on 3 with b.
+447    173    17         102.7805   122.5864   19.2701    % 
+LB close or above UB, fathomed
+448    172    17         102.7805   122.5864   19.2701    % 
+UB: 122.5864123159304
+branching on CartesianIndex(1, 6) with c.
+449    173    18         102.7805   122.5864   19.2701    % 
+UB: 122.5864123159304
+branching on CartesianIndex(1, 7) with c.
+450    174    19         102.7805   122.5864   19.2701    % 
+LB close or above UB, fathomed
+451    173    19         102.7805   122.5864   19.2701    % 
+UB: 122.5864123159304
+branching on 2 with b.
+452    174    20         102.7805   122.5864   19.2701    % 
+UB: 122.5864123159304
+branching on 3 with b.
+453    175    21         102.7805   122.5864   19.2701    % 
+UB: 122.5864123159304
+branching on 1 with b.
+454    176    21         102.7805   122.5864   19.2701    % 
+LB close or above UB, fathomed
+455    175    20         102.7805   122.5864   19.2701    % 
+LB close or above UB, fathomed
+456    174    18         102.7805   122.5864   19.2701    % 
+LB close or above UB, fathomed
+457    173    18         102.7805   122.5864   19.2701    % 
+UB: 122.5864123159304
+branching on CartesianIndex(1, 5) with c.
+458    174    18         102.7805   122.5864   19.2701    % 
+LB close or above UB, fathomed
+459    173    18         102.7805   122.5864   19.2701    % 
+UB: 122.5864123159304
+branching on CartesianIndex(1, 5) with c.
+460    174    19         102.7805   122.5864   19.2701    % 
+LB close or above UB, fathomed
+461    173    19         102.7805   122.5864   19.2701    % 
+UB: 122.5864123159304
+branching on CartesianIndex(1, 6) with c.
+462    174    18         102.7805   122.5864   19.2701    % 
+LB close or above UB, fathomed
+463    173    21         102.7805   122.5864   19.2701    % 
+LB close or above UB, fathomed
+464    172    21         102.7805   122.5864   19.2701    % 
+UB: 122.5864123159304
+branching on 1 with b.
+465    173    22         102.7805   122.5864   19.2701    % 
+UB: 122.5864123159304
+branching on 2 with b.
+466    174    22         102.7805   122.5864   19.2701    % 
+LB close or above UB, fathomed
+467    173    20         102.7805   122.5864   19.2701    % 
+UB: 122.5864123159304
+branching on 1 with b.
+468    174    21         102.7805   122.5864   19.2701    % 
+UB: 122.5864123159304
+branching on CartesianIndex(1, 7) with c.
+469    175    21         102.7805   122.5864   19.2701    % 
+UB: 122.5864123159304
+branching on CartesianIndex(1, 7) with c.
+470    176    20         102.7805   122.5864   19.2701    % 
+LB close or above UB, fathomed
+471    175    19         102.7805   122.5864   19.2701    % 
+LB close or above UB, fathomed
+472    174    19         102.7805   122.5864   19.2701    % 
+UB: 122.5864123159304
+branching on CartesianIndex(1, 6) with c.
+473    175    20         102.7805   122.5864   19.2701    % 
+UB: 122.5864123159304
+branching on CartesianIndex(1, 7) with c.
+474    176    20         102.7805   122.5864   19.2701    % 
+LB close or above UB, fathomed
+475    175    21         102.7805   122.5864   19.2701    % 
+LB close or above UB, fathomed
+476    174    21         102.7805   122.5864   19.2701    % 
+UB: 122.5864123159304
+branching on 1 with b.
+477    175    22         102.7805   122.5864   19.2701    % 
+UB: 122.5864123159304
+branching on 2 with b.
+478    176    22         102.7805   122.5864   19.2701    % 
+UB: 122.5864123159304
+branching on 2 with b.
+479    177    27         102.7805   122.5864   19.2701    % 
+UB: 122.5864123159304
+branching on 3 with b.
+480    178    27         102.7805   122.5864   19.2701    % 
+UB: 122.5864123159304
+branching on 3 with b.
+481    179    27         102.7805   122.5864   19.2701    % 
+UB: 122.5864123159304
+branching on 3 with b.
+482    180    27         102.7805   122.5864   19.2701    % 
+UB: 122.5864123159304
+branching on 3 with b.
+483    181    27         102.7805   122.5864   19.2701    % 
+UB: 122.5864123159304
+branching on 3 with b.
+484    182    27         102.7805   122.5864   19.2701    % 
+UB: 122.5864123159304
+branching on 3 with b.
+485    183    26         102.7805   122.5864   19.2701    % 
+UB: 122.5864123159304
+branching on 2 with b.
+486    184    26         102.7805   122.5864   19.2701    % 
+UB: 122.5864123159304
+branching on 2 with b.
+487    185    18         102.7805   122.5864   19.2701    % 
+LB close or above UB, fathomed
+488    184    18         102.7805   122.5864   19.2701    % 
+UB: 122.5864123159304
+branching on 3 with b.
+489    185    18         102.7805   122.5864   19.2701    % 
+LB close or above UB, fathomed
+490    184    18         102.7805   122.5864   19.2701    % 
+UB: 122.5864123159304
+branching on 3 with b.
+491    185    31         102.7805   122.5864   19.2701    % 
+UB: 122.5864123159304
+branching on 2 with b.
+492    186    31         102.7805   122.5864   19.2701    % 
+UB: 122.5864123159304
+branching on 2 with b.
+493    187    10         102.7805   122.5864   19.2701    % 
+UB: 122.5864123159304
+branching on 2 with b.
+494    188    10         102.7805   122.5864   19.2701    % 
+LB close or above UB, fathomed
+495    187    25         102.7805   122.5864   19.2701    % 
+UB: 122.5864123159304
+branching on 1 with b.
+496    188    26         102.7805   122.5864   19.2701    % 
+UB: 122.5864123159304
+branching on 2 with b.
+497    189    27         102.7805   122.5864   19.2701    % 
+UB: 122.5864123159304
+branching on 3 with b.
+498    190    27         102.7805   122.5864   19.2701    % 
+UB: 122.5864123159304
+branching on 3 with b.
+499    191    26         102.7805   122.5864   19.2701    % 
+UB: 122.5864123159304
+branching on 2 with b.
+500    192    25         102.7805   122.5864   19.2701    % 
+UB: 122.5864123159304
+branching on 1 with b.
+501    193    26         102.7805   122.5864   19.2701    % 
+UB: 122.5864123159304
+branching on 2 with b.
+502    194    27         102.7805   122.5864   19.2701    % 
+UB: 122.5864123159304
+branching on 3 with b.
+503    195    27         102.7805   122.5864   19.2701    % 
+UB: 122.5864123159304
+branching on 3 with b.
+504    196    26         102.7805   122.5864   19.2701    % 
+UB: 122.5864123159304
+branching on 2 with b.
+505    197    25         102.7805   122.5864   19.2701    % 
+UB: 122.5864123159304
+branching on 1 with b.
+506    198    26         102.7805   122.5864   19.2701    % 
+UB: 122.5864123159304
+branching on 2 with b.
+507    199    26         102.7805   122.5864   19.2701    % 
+UB: 122.5864123159304
+branching on 2 with b.
+508    200    25         102.7805   122.5864   19.2701    % 
+UB: 122.5864123159304
+branching on 1 with b.
+509    201    26         102.7805   122.5864   19.2701    % 
+UB: 122.5864123159304
+branching on 2 with b.
+510    202    27         102.7805   122.5864   19.2701    % 
+UB: 122.5864123159304
+branching on 3 with b.
+511    203    27         102.7805   122.5864   19.2701    % 
+UB: 122.5864123159304
+branching on 3 with b.
+512    204    26         102.7805   122.5864   19.2701    % 
+UB: 122.5864123159304
+branching on 2 with b.
+513    205    19         102.7805   122.5864   19.2701    % 
+LB close or above UB, fathomed
+514    204    19         102.7805   122.5864   19.2701    % 
+UB: 122.5864123159304
+branching on 2 with b.
+515    205    20         102.7805   122.5864   19.2701    % 
+LB close or above UB, fathomed
+516    204    20         102.7805   122.5864   19.2701    % 
+UB: 122.5864123159304
+branching on 3 with b.
+517    205    26         104.5767   122.5864   17.2215    % 
+UB: 122.5864123159304
+branching on 3 with b.
+518    206    26         104.5767   122.5864   17.2215    % 
+UB: 122.5864123159304
+branching on 3 with b.
+519    207    27         104.5811   122.5864   17.2167    % 
+LB close or above UB, fathomed
+520    206    27         104.5811   122.5864   17.2167    % 
+UB: 122.5864123159304
+branching on 1 with b.
+521    207    28         104.5811   122.5864   17.2167    % 
+UB: 122.5864123159304
+branching on 2 with b.
+522    208    28         104.5811   122.5864   17.2167    % 
+UB: 122.5864123159304
+branching on 2 with b.
+523    209    27         104.5811   122.5864   17.2167    % 
+LB close or above UB, fathomed
+524    208    27         104.5811   122.5864   17.2167    % 
+UB: 122.5864123159304
+branching on 1 with b.
+525    209    27         104.5811   122.5864   17.2167    % 
+UB: 122.5864123159304
+branching on 3 with b.
+526    210    27         104.5811   122.5864   17.2167    % 
+UB: 122.5864123159304
+branching on 3 with b.
+527    211    13         104.5811   122.5864   17.2167    % 
+UB: 122.5864123159304
+branching on CartesianIndex(1, 3) with a.
+528    212    14         104.5811   122.5864   17.2167    % 
+UB: 122.5864123159304
+branching on CartesianIndex(2, 3) with a.
+529    213    14         104.5811   122.5864   17.2167    % 
+UB: 122.5864123159304
+branching on CartesianIndex(1, 4) with c.
+530    214    13         104.5811   122.5864   17.2167    % 
+LB close or above UB, fathomed
+531    213    18         104.5811   122.5864   17.2167    % 
+LB close or above UB, fathomed
+532    212    18         104.5811   122.5864   17.2167    % 
+UB: 122.5864123159304
+branching on 3 with b.
+533    213    11         106.3730   122.5864   15.2420    % 
+LB close or above UB, fathomed
+534    212    11         106.3730   122.5864   15.2420    % 
+UB: 122.5864123159304
+branching on CartesianIndex(1, 2) with a.
+535    213    17         106.3816   122.5864   15.2327    % 
+UB: 122.5864123159304
+branching on CartesianIndex(1, 5) with c.
+536    214    18         106.3816   122.5864   15.2327    % 
+LB close or above UB, fathomed
+537    213    18         106.3816   122.5864   15.2327    % 
+UB: 122.5864123159304
+branching on CartesianIndex(1, 6) with c.
+538    214    19         106.3816   122.5864   15.2327    % 
+UB: 122.5864123159304
+branching on CartesianIndex(1, 7) with c.
+539    215    19         106.3816   122.5864   15.2327    % 
+UB: 122.5864123159304
+branching on CartesianIndex(1, 7) with c.
+540    216    17         106.3816   122.5864   15.2327    % 
+LB close or above UB, fathomed
+541    215    20         106.3816   122.5864   15.2327    % 
+UB: 122.5864123159304
+branching on 3 with b.
+542    216    21         106.3816   122.5864   15.2327    % 
+LB close or above UB, fathomed
+543    215    21         106.3816   122.5864   15.2327    % 
+UB: 122.5864123159304
+branching on 1 with b.
+544    216    20         106.3816   122.5864   15.2327    % 
+UB: 122.5864123159304
+branching on 3 with b.
+545    217    22         106.3816   122.5864   15.2327    % 
+LB close or above UB, fathomed
+546    216    22         106.3816   122.5864   15.2327    % 
+UB: 122.5864123159304
+branching on 2 with b.
+547    217    23         106.3816   122.5864   15.2327    % 
+UB: 122.5864123159304
+branching on 3 with b.
+548    218    23         106.3816   122.5864   15.2327    % 
+LB close or above UB, fathomed
+549    217    26         106.3816   122.5864   15.2327    % 
+LB close or above UB, fathomed
+550    216    26         106.3816   122.5864   15.2327    % 
+LB close or above UB, fathomed
+551    215    24         106.3816   122.5864   15.2327    % 
+LB close or above UB, fathomed
+552    214    24         106.3816   122.5864   15.2327    % 
+LB close or above UB, fathomed
+553    213    27         106.3816   122.5864   15.2327    % 
+UB: 122.5864123159304
+branching on 3 with b.
+554    214    27         106.3816   122.5864   15.2327    % 
+LB close or above UB, fathomed
+555    213    27         106.3816   122.5864   15.2327    % 
+UB: 122.5864123159304
+branching on 3 with b.
+556    214    27         106.3816   122.5864   15.2327    % 
+LB close or above UB, fathomed
+557    213    27         106.3816   122.5864   15.2327    % 
+UB: 122.5864123159304
+branching on 3 with b.
+558    214    27         106.3816   122.5864   15.2327    % 
+LB close or above UB, fathomed
+559    213    27         106.3816   122.5864   15.2327    % 
+UB: 122.5864123159304
+branching on 3 with b.
+560    214    27         106.3816   122.5864   15.2327    % 
+LB close or above UB, fathomed
+561    213    27         106.3816   122.5864   15.2327    % 
+UB: 122.5864123159304
+branching on 3 with b.
+562    214    27         106.3816   122.5864   15.2327    % 
+LB close or above UB, fathomed
+563    213    11         106.3816   122.5864   15.2327    % 
+LB close or above UB, fathomed
+564    212    11         106.3816   122.5864   15.2327    % 
+UB: 122.5864123159304
+branching on CartesianIndex(1, 3) with a.
+565    213    12         106.3816   122.5864   15.2327    % 
+UB: 122.5864123159304
+branching on CartesianIndex(2, 3) with a.
+566    214    12         106.3816   122.5864   15.2327    % 
+UB: 122.5864123159304
+branching on CartesianIndex(1, 4) with c.
+567    215    13         106.3816   122.5864   15.2327    % 
+UB: 122.5864123159304
+branching on CartesianIndex(1, 5) with c.
+568    216    14         106.3816   122.5864   15.2327    % 
+LB close or above UB, fathomed
+569    215    14         106.3816   122.5864   15.2327    % 
+UB: 122.5864123159304
+branching on CartesianIndex(1, 6) with c.
+570    216    15         106.3816   122.5864   15.2327    % 
+LB close or above UB, fathomed
+571    215    15         106.3816   122.5864   15.2327    % 
+UB: 122.5864123159304
+branching on CartesianIndex(1, 7) with c.
+572    216    13         106.3816   122.5864   15.2327    % 
+LB close or above UB, fathomed
+573    215    24         106.3816   122.5864   15.2327    % 
+LB close or above UB, fathomed
+574    214    24         106.3816   122.5864   15.2327    % 
+LB close or above UB, fathomed
+575    213    24         106.3816   122.5864   15.2327    % 
+LB close or above UB, fathomed
+576    212    24         106.3816   122.5864   15.2327    % 
+LB close or above UB, fathomed
+577    211    24         106.3816   122.5864   15.2327    % 
+LB close or above UB, fathomed
+578    210    24         106.3816   122.5864   15.2327    % 
+LB close or above UB, fathomed
+579    209    14         108.1321   122.5864   13.3672    % 
+UB: 122.5864123159304
+branching on 2 with b.
+580    210    15         108.1321   122.5864   13.3672    % 
+UB: 122.5864123159304
+branching on 1 with b.
+581    211    16         108.1321   122.5864   13.3672    % 
+LB close or above UB, fathomed
+582    210    16         108.1321   122.5864   13.3672    % 
+LB close or above UB, fathomed
+583    209    15         108.1321   122.5864   13.3672    % 
+LB close or above UB, fathomed
+584    208    14         108.1321   122.5864   13.3672    % 
+LB close or above UB, fathomed
+585    207    16         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on 3 with b.
+586    208    17         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on 1 with b.
+587    209    18         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+588    208    18         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+589    207    17         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on 1 with b.
+590    208    16         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+591    207    20         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+592    206    20         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on 3 with b.
+593    207    21         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on 1 with b.
+594    208    22         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+595    207    22         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+596    206    21         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+597    205    21         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+598    204    21         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on 1 with b.
+599    205    22         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+600    204    22         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+601    203    19         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on 1 with b.
+602    204    19         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+603    203    19         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+604    202    19         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on 1 with b.
+605    203    20         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+606    202    20         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+607    201    20         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on 2 with b.
+608    202    20         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+609    201    21         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on 1 with b.
+610    202    21         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on 1 with b.
+611    203    21         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+612    202    21         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on 1 with b.
+613    203    22         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+614    202    22         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+615    201    22         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+616    200    22         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+617    199    22         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+618    198    22         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+619    197    18         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+620    196    18         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+621    195    22         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+622    194    22         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+623    193    19         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+624    192    19         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on 1 with b.
+625    193    20         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+626    192    20         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+627    191    26         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+628    190    26         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on 3 with b.
+629    191    16         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on 1 with b.
+630    192    17         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on 2 with b.
+631    193    18         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on 3 with b.
+632    194    19         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+633    193    19         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on 1 with b.
+634    194    20         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+635    193    20         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+636    192    18         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+637    191    17         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+638    190    16         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on 1 with b.
+639    191    17         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on 2 with b.
+640    192    18         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on 3 with b.
+641    193    19         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on 1 with b.
+642    194    20         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+643    193    20         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+644    192    19         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on 1 with b.
+645    193    20         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+646    192    20         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+647    191    18         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+648    190    17         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+649    189    13         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on CartesianIndex(3, 3) with a.
+650    190    14         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on CartesianIndex(1, 4) with c.
+651    191    15         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on CartesianIndex(1, 5) with c.
+652    192    16         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+653    191    16         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on CartesianIndex(1, 6) with c.
+654    192    17         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+655    191    17         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on 1 with b.
+656    192    18         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on 2 with b.
+657    193    19         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on CartesianIndex(1, 7) with c.
+658    194    20         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on 3 with b.
+659    195    21         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on 1 with b.
+660    196    21         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on 1 with b.
+661    197    22         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+662    196    22         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+663    195    20         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on 3 with b.
+664    196    21         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on 1 with b.
+665    197    22         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+666    196    22         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+667    195    21         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on 1 with b.
+668    196    22         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+669    195    22         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+670    194    19         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+671    193    18         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+672    192    15         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+673    191    14         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on CartesianIndex(1, 4) with c.
+674    192    15         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on CartesianIndex(1, 5) with c.
+675    193    16         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+676    192    16         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on CartesianIndex(1, 6) with c.
+677    193    17         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+678    192    17         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on CartesianIndex(1, 7) with c.
+679    193    18         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on 1 with b.
+680    194    19         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on 2 with b.
+681    195    20         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on 3 with b.
+682    196    21         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on 1 with b.
+683    197    22         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+684    196    22         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+685    195    21         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on 1 with b.
+686    196    22         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+687    195    22         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+688    194    20         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+689    193    19         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+690    192    18         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on 1 with b.
+691    193    19         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on 2 with b.
+692    194    20         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on 3 with b.
+693    195    21         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on 1 with b.
+694    196    22         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+695    195    22         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+696    194    21         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on 1 with b.
+697    195    22         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+698    194    22         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+699    193    20         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+700    192    19         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+701    191    15         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+702    190    13         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on CartesianIndex(1, 4) with c.
+703    191    14         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on CartesianIndex(1, 5) with c.
+704    192    15         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+705    191    15         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on CartesianIndex(1, 6) with c.
+706    192    16         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on CartesianIndex(1, 7) with c.
+707    193    17         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+708    192    17         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on 1 with b.
+709    193    18         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on 2 with b.
+710    194    19         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on 3 with b.
+711    195    20         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on 1 with b.
+712    196    21         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+713    195    21         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+714    194    20         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on 1 with b.
+715    195    21         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on 2 with b.
+716    196    21         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+717    195    19         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+718    194    18         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+719    193    16         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on CartesianIndex(1, 7) with c.
+720    194    17         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on 1 with b.
+721    195    17         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on 1 with b.
+722    196    18         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on 2 with b.
+723    197    19         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on 3 with b.
+724    198    20         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on 1 with b.
+725    199    21         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+726    198    21         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+727    197    20         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on 1 with b.
+728    198    21         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+729    197    21         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+730    196    19         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+731    195    18         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+732    194    14         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+733    193    29         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on 3 with b.
+734    194    30         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+735    193    30         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on 1 with b.
+736    194    29         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on 3 with b.
+737    195    23         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on 3 with b.
+738    196    23         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+739    195    24         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+740    194    24         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+741    193    15         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on CartesianIndex(3, 3) with a.
+742    194    16         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on CartesianIndex(1, 4) with c.
+743    195    17         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on 3 with b.
+744    196    18         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on 1 with b.
+745    197    18         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on CartesianIndex(1, 5) with c.
+746    198    17         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+747    197    16         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on 3 with b.
+748    198    15         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on CartesianIndex(1, 4) with c.
+749    199    24         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on 1 with b.
+750    200    25         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on 2 with b.
+751    201    25         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on 2 with b.
+752    202    24         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+753    201    32         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on 3 with b.
+754    202    32         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on 3 with b.
+755    203    33         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on 1 with b.
+756    204    33         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on 1 with b.
+757    205    27         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on 3 with b.
+758    206    27         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+759    205    14         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on CartesianIndex(1, 5) with c.
+760    206    15         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+761    205    15         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on CartesianIndex(1, 6) with c.
+762    206    16         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on 1 with b.
+763    207    17         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+764    206    17         108.1821   122.5864   13.3148    % 
+UB: 122.5864123159304
+branching on CartesianIndex(1, 7) with c.
+765    207    16         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+766    206    14         108.1821   122.5864   13.3148    % 
+LB close or above UB, fathomed
+767    205    10         108.4933   122.5864   12.9898    % 
+UB: 122.5864123159304
+branching on 2 with b.
+768    206    10         108.4933   122.5864   12.9898    % 
+LB close or above UB, fathomed
+769    205    9          109.0775   122.5864   12.3847    % 
+UB: 122.5864123159304
+branching on CartesianIndex(1, 3) with a.
+770    206    10         109.0775   122.5864   12.3847    % 
+LB close or above UB, fathomed
+771    205    10         109.0775   122.5864   12.3847    % 
+LB close or above UB, fathomed
+772    204    9          109.0775   122.5864   12.3847    % 
+LB close or above UB, fathomed
+773    203    10         109.0858   122.5864   12.3762    % 
+UB: 122.5864123159304
+branching on CartesianIndex(2, 2) with a.
+774    204    10         109.0858   122.5864   12.3762    % 
+LB close or above UB, fathomed
+775    203    9          109.9713   122.5864   11.4713    % 
+LB close or above UB, fathomed
+776    202    9          109.9713   122.5864   11.4713    % 
+UB: 122.5864123159304
+branching on CartesianIndex(2, 1) with a.
+777    203    18         109.9827   122.5864   11.4598    % 
+UB: 122.5864123159304
+branching on 2 with b.
+778    204    18         109.9827   122.5864   11.4598    % 
+LB close or above UB, fathomed
+779    203    19         109.9827   122.5864   11.4598    % 
+UB: 122.5864123159304
+branching on 3 with b.
+780    204    20         109.9827   122.5864   11.4598    % 
+LB close or above UB, fathomed
+781    203    20         109.9827   122.5864   11.4598    % 
+UB: 122.5864123159304
+branching on 1 with b.
+782    204    21         109.9827   122.5864   11.4598    % 
+LB close or above UB, fathomed
+783    203    21         109.9827   122.5864   11.4598    % 
+LB close or above UB, fathomed
+784    202    19         109.9827   122.5864   11.4598    % 
+LB close or above UB, fathomed
+785    201    15         109.9827   122.5864   11.4598    % 
+LB close or above UB, fathomed
+786    200    15         109.9827   122.5864   11.4598    % 
+UB: 122.5864123159304
+branching on 3 with b.
+787    201    19         109.9827   122.5864   11.4598    % 
+LB close or above UB, fathomed
+788    200    19         109.9827   122.5864   11.4598    % 
+UB: 122.5864123159304
+branching on CartesianIndex(1, 6) with c.
+789    201    20         109.9827   122.5864   11.4598    % 
+LB close or above UB, fathomed
+790    200    20         109.9827   122.5864   11.4598    % 
+UB: 122.5864123159304
+branching on CartesianIndex(1, 7) with c.
+791    201    21         109.9827   122.5864   11.4598    % 
+UB: 122.5864123159304
+branching on 1 with b.
+792    202    21         109.9827   122.5864   11.4598    % 
+UB: 122.5864123159304
+branching on 1 with b.
+793    203    19         109.9827   122.5864   11.4598    % 
+LB close or above UB, fathomed
+794    202    19         109.9827   122.5864   11.4598    % 
+LB close or above UB, fathomed
+795    201    23         109.9827   122.5864   11.4598    % 
+UB: 122.5864123159304
+branching on 3 with b.
+796    202    24         109.9827   122.5864   11.4598    % 
+UB: 122.5864123159304
+branching on 1 with b.
+797    203    24         109.9827   122.5864   11.4598    % 
+LB close or above UB, fathomed
+798    202    23         109.9827   122.5864   11.4598    % 
+LB close or above UB, fathomed
+799    201    20         109.9827   122.5864   11.4598    % 
+UB: 122.5864123159304
+branching on 1 with b.
+800    202    20         109.9827   122.5864   11.4598    % 
+UB: 122.5864123159304
+branching on 1 with b.
+801    203    21         109.9827   122.5864   11.4598    % 
+LB close or above UB, fathomed
+802    202    21         109.9827   122.5864   11.4598    % 
+LB close or above UB, fathomed
+803    201    25         109.9827   122.5864   11.4598    % 
+UB: 122.5864123159304
+branching on 1 with b.
+804    202    25         109.9827   122.5864   11.4598    % 
+UB: 122.5864123159304
+branching on 1 with b.
+805    203    26         109.9827   122.5864   11.4598    % 
+UB: 122.5864123159304
+branching on 2 with b.
+806    204    26         109.9827   122.5864   11.4598    % 
+UB: 122.5864123159304
+branching on 2 with b.
+807    205    25         109.9827   122.5864   11.4598    % 
+UB: 122.5864123159304
+branching on 1 with b.
+808    206    26         109.9827   122.5864   11.4598    % 
+UB: 122.5864123159304
+branching on 2 with b.
+809    207    26         109.9827   122.5864   11.4598    % 
+UB: 122.5864123159304
+branching on 2 with b.
+810    208    25         109.9827   122.5864   11.4598    % 
+UB: 122.5864123159304
+branching on 1 with b.
+811    209    26         109.9827   122.5864   11.4598    % 
+UB: 122.5864123159304
+branching on 2 with b.
+812    210    26         109.9827   122.5864   11.4598    % 
+UB: 122.5864123159304
+branching on 2 with b.
+813    211    25         109.9827   122.5864   11.4598    % 
+UB: 122.5864123159304
+branching on 2 with b.
+814    212    25         109.9827   122.5864   11.4598    % 
+UB: 122.5864123159304
+branching on 2 with b.
+815    213    24         109.9827   122.5864   11.4598    % 
+LB close or above UB, fathomed
+816    212    24         109.9827   122.5864   11.4598    % 
+UB: 122.5864123159304
+branching on 1 with b.
+817    213    27         109.9827   122.5864   11.4598    % 
+LB close or above UB, fathomed
+818    212    27         109.9827   122.5864   11.4598    % 
+UB: 122.5864123159304
+branching on 3 with b.
+819    213    27         109.9827   122.5864   11.4598    % 
+LB close or above UB, fathomed
+820    212    27         109.9827   122.5864   11.4598    % 
+UB: 122.5864123159304
+branching on 3 with b.
+821    213    27         109.9827   122.5864   11.4598    % 
+LB close or above UB, fathomed
+822    212    27         109.9827   122.5864   11.4598    % 
+UB: 122.5864123159304
+branching on 3 with b.
+823    213    31         109.9827   122.5864   11.4598    % 
+UB: 122.5864123159304
+branching on 2 with b.
+824    214    31         109.9827   122.5864   11.4598    % 
+UB: 122.5864123159304
+branching on 2 with b.
+825    215    32         109.9827   122.5864   11.4598    % 
+UB: 122.5864123159304
+branching on 3 with b.
+826    216    32         109.9827   122.5864   11.4598    % 
+UB: 122.5864123159304
+branching on 3 with b.
+827    217    33         109.9827   122.5864   11.4598    % 
+UB: 122.5864123159304
+branching on 1 with b.
+828    218    33         109.9827   122.5864   11.4598    % 
+UB: 122.5864123159304
+branching on 1 with b.
+829    219    22         109.9827   122.5864   11.4598    % 
+LB close or above UB, fathomed
+830    218    22         109.9827   122.5864   11.4598    % 
+LB close or above UB, fathomed
+831    217    30         109.9827   122.5864   11.4598    % 
+LB close or above UB, fathomed
+832    216    30         109.9827   122.5864   11.4598    % 
+UB: 122.5864123159304
+branching on 1 with b.
+833    217    31         109.9827   122.5864   11.4598    % 
+UB: 122.5864123159304
+branching on 2 with b.
+834    218    31         109.9827   122.5864   11.4598    % 
+UB: 122.5864123159304
+branching on 2 with b.
+835    219    27         109.9827   122.5864   11.4598    % 
+LB close or above UB, fathomed
+836    218    27         109.9827   122.5864   11.4598    % 
+UB: 122.5864123159304
+branching on 1 with b.
+837    219    25         109.9827   122.5864   11.4598    % 
+UB: 122.5864123159304
+branching on 1 with b.
+838    220    26         109.9827   122.5864   11.4598    % 
+UB: 122.5864123159304
+branching on 2 with b.
+839    221    27         109.9827   122.5864   11.4598    % 
+LB close or above UB, fathomed
+840    220    27         109.9827   122.5864   11.4598    % 
+UB: 122.5864123159304
+branching on 3 with b.
+841    221    26         109.9827   122.5864   11.4598    % 
+UB: 122.5864123159304
+branching on 2 with b.
+842    222    25         109.9827   122.5864   11.4598    % 
+UB: 122.5864123159304
+branching on 1 with b.
+843    223    26         109.9827   122.5864   11.4598    % 
+UB: 122.5864123159304
+branching on 2 with b.
+844    224    27         109.9827   122.5864   11.4598    % 
+LB close or above UB, fathomed
+845    223    27         109.9827   122.5864   11.4598    % 
+UB: 122.5864123159304
+branching on 3 with b.
+846    224    26         109.9827   122.5864   11.4598    % 
+UB: 122.5864123159304
+branching on 2 with b.
+847    225    25         109.9827   122.5864   11.4598    % 
+UB: 122.5864123159304
+branching on 1 with b.
+848    226    26         109.9827   122.5864   11.4598    % 
+UB: 122.5864123159304
+branching on 2 with b.
+849    227    26         109.9827   122.5864   11.4598    % 
+UB: 122.5864123159304
+branching on 2 with b.
+850    228    25         109.9827   122.5864   11.4598    % 
+UB: 122.5864123159304
+branching on 1 with b.
+851    229    26         109.9827   122.5864   11.4598    % 
+UB: 122.5864123159304
+branching on 2 with b.
+852    230    27         109.9827   122.5864   11.4598    % 
+LB close or above UB, fathomed
+853    229    27         109.9827   122.5864   11.4598    % 
+UB: 122.5864123159304
+branching on 3 with b.
+854    230    26         109.9827   122.5864   11.4598    % 
+UB: 122.5864123159304
+branching on 2 with b.
+855    231    11         111.1791   122.5864   10.2603    % 
+LB close or above UB, fathomed
+856    230    11         111.1791   122.5864   10.2603    % 
+LB close or above UB, fathomed
+857    229    16         111.7332   122.5864   9.7135     % 
+LB close or above UB, fathomed
+858    228    16         111.7332   122.5864   9.7135     % 
+LB close or above UB, fathomed
+859    227    20         111.7832   122.5864   9.6644     % 
+LB close or above UB, fathomed
+860    226    20         111.7832   122.5864   9.6644     % 
+UB: 122.5864123159304
+branching on 3 with b.
+861    227    21         111.7832   122.5864   9.6644     % 
+UB: 122.5864123159304
+branching on 1 with b.
+862    228    21         111.7832   122.5864   9.6644     % 
+UB: 122.5864123159304
+branching on 1 with b.
+863    229    22         111.7832   122.5864   9.6644     % 
+LB close or above UB, fathomed
+864    228    22         111.7832   122.5864   9.6644     % 
+LB close or above UB, fathomed
+865    227    16         111.7832   122.5864   9.6644     % 
+UB: 122.5864123159304
+branching on 1 with b.
+866    228    16         111.7832   122.5864   9.6644     % 
+LB close or above UB, fathomed
+867    227    17         111.7832   122.5864   9.6644     % 
+UB: 122.5864123159304
+branching on CartesianIndex(1, 4) with c.
+868    228    18         111.7832   122.5864   9.6644     % 
+UB: 122.5864123159304
+branching on CartesianIndex(1, 5) with c.
+869    229    19         111.7832   122.5864   9.6644     % 
+LB close or above UB, fathomed
+870    228    19         111.7832   122.5864   9.6644     % 
+UB: 122.5864123159304
+branching on CartesianIndex(1, 6) with c.
+871    229    20         111.7832   122.5864   9.6644     % 
+LB close or above UB, fathomed
+872    228    20         111.7832   122.5864   9.6644     % 
+UB: 122.5864123159304
+branching on CartesianIndex(1, 7) with c.
+873    229    18         111.7832   122.5864   9.6644     % 
+LB close or above UB, fathomed
+874    228    17         111.7832   122.5864   9.6644     % 
+UB: 122.5864123159304
+branching on CartesianIndex(1, 4) with c.
+875    229    18         111.7832   122.5864   9.6644     % 
+UB: 122.5864123159304
+branching on CartesianIndex(1, 5) with c.
+876    230    19         111.7832   122.5864   9.6644     % 
+LB close or above UB, fathomed
+877    229    19         111.7832   122.5864   9.6644     % 
+UB: 122.5864123159304
+branching on CartesianIndex(1, 6) with c.
+878    230    20         111.7832   122.5864   9.6644     % 
+LB close or above UB, fathomed
+879    229    20         111.7832   122.5864   9.6644     % 
+UB: 122.5864123159304
+branching on 1 with b.
+880    230    21         111.7832   122.5864   9.6644     % 
+LB close or above UB, fathomed
+881    229    21         111.7832   122.5864   9.6644     % 
+LB close or above UB, fathomed
+882    228    18         111.7832   122.5864   9.6644     % 
+LB close or above UB, fathomed
+883    227    20         111.7832   122.5864   9.6644     % 
+UB: 122.5864123159304
+branching on 1 with b.
+884    228    20         111.7832   122.5864   9.6644     % 
+UB: 122.5864123159304
+branching on 1 with b.
+885    229    21         111.7832   122.5864   9.6644     % 
+LB close or above UB, fathomed
+886    228    21         111.7832   122.5864   9.6644     % 
+LB close or above UB, fathomed
+887    227    21         111.7832   122.5864   9.6644     % 
+UB: 122.5864123159304
+branching on 1 with b.
+888    228    21         111.7832   122.5864   9.6644     % 
+UB: 122.5864123159304
+branching on 1 with b.
+889    229    16         111.7832   122.5864   9.6644     % 
+UB: 122.5864123159304
+branching on 3 with b.
+890    230    16         111.7832   122.5864   9.6644     % 
+LB close or above UB, fathomed
+891    229    19         111.7832   122.5864   9.6644     % 
+UB: 122.5864123159304
+branching on 1 with b.
+892    230    20         111.7832   122.5864   9.6644     % 
+LB close or above UB, fathomed
+893    229    20         111.7832   122.5864   9.6644     % 
+LB close or above UB, fathomed
+894    228    19         111.7832   122.5864   9.6644     % 
+UB: 122.5864123159304
+branching on 1 with b.
+895    229    23         111.7832   122.5864   9.6644     % 
+UB: 122.5864123159304
+branching on 3 with b.
+896    230    23         111.7832   122.5864   9.6644     % 
+LB close or above UB, fathomed
+897    229    17         111.7832   122.5864   9.6644     % 
+UB: 122.5864123159304
+branching on CartesianIndex(1, 5) with c.
+898    230    18         111.7832   122.5864   9.6644     % 
+LB close or above UB, fathomed
+899    229    18         111.7832   122.5864   9.6644     % 
+UB: 122.5864123159304
+branching on CartesianIndex(1, 6) with c.
+900    230    19         111.7832   122.5864   9.6644     % 
+LB close or above UB, fathomed
+901    229    19         111.7832   122.5864   9.6644     % 
+UB: 122.5864123159304
+branching on CartesianIndex(1, 7) with c.
+902    230    20         111.7832   122.5864   9.6644     % 
+LB close or above UB, fathomed
+903    229    20         111.7832   122.5864   9.6644     % 
+UB: 122.5864123159304
+branching on 1 with b.
+904    230    21         111.7832   122.5864   9.6644     % 
+LB close or above UB, fathomed
+905    229    21         111.7832   122.5864   9.6644     % 
+LB close or above UB, fathomed
+906    228    17         111.7832   122.5864   9.6644     % 
+UB: 122.5864123159304
+branching on 1 with b.
+907    229    18         111.7832   122.5864   9.6644     % 
+LB close or above UB, fathomed
+908    228    18         111.7832   122.5864   9.6644     % 
+LB close or above UB, fathomed
+909    227    22         111.7832   122.5864   9.6644     % 
+LB close or above UB, fathomed
+910    226    22         111.7832   122.5864   9.6644     % 
+LB close or above UB, fathomed
+911    225    28         111.7832   122.5864   9.6644     % 
+UB: 122.5864123159304
+branching on 1 with b.
+912    226    28         111.7832   122.5864   9.6644     % 
+UB: 122.5864123159304
+branching on 1 with b.
+913    227    29         111.7832   122.5864   9.6644     % 
+UB: 122.5864123159304
+branching on 2 with b.
+914    228    30         111.7832   122.5864   9.6644     % 
+LB close or above UB, fathomed
+915    227    30         111.7832   122.5864   9.6644     % 
+LB close or above UB, fathomed
+916    226    29         111.7832   122.5864   9.6644     % 
+UB: 122.5864123159304
+branching on 2 with b.
+917    227    28         111.7832   122.5864   9.6644     % 
+UB: 122.5864123159304
+branching on 1 with b.
+918    228    29         111.7832   122.5864   9.6644     % 
+UB: 122.5864123159304
+branching on 2 with b.
+919    229    30         111.7832   122.5864   9.6644     % 
+LB close or above UB, fathomed
+920    228    30         111.7832   122.5864   9.6644     % 
+LB close or above UB, fathomed
+921    227    29         111.7832   122.5864   9.6644     % 
+UB: 122.5864123159304
+branching on 2 with b.
+922    228    28         111.7832   122.5864   9.6644     % 
+LB close or above UB, fathomed
+923    227    28         111.7832   122.5864   9.6644     % 
+UB: 122.5864123159304
+branching on 1 with b.
+924    228    29         111.7832   122.5864   9.6644     % 
+UB: 122.5864123159304
+branching on 2 with b.
+925    229    30         111.7832   122.5864   9.6644     % 
+LB close or above UB, fathomed
+926    228    30         111.7832   122.5864   9.6644     % 
+LB close or above UB, fathomed
+927    227    29         111.7832   122.5864   9.6644     % 
+UB: 122.5864123159304
+branching on 2 with b.
+928    228    28         111.7832   122.5864   9.6644     % 
+UB: 122.5864123159304
+branching on 1 with b.
+929    229    29         111.7832   122.5864   9.6644     % 
+UB: 122.5864123159304
+branching on 2 with b.
+930    230    30         111.7832   122.5864   9.6644     % 
+LB close or above UB, fathomed
+931    229    30         111.7832   122.5864   9.6644     % 
+LB close or above UB, fathomed
+932    228    29         111.7832   122.5864   9.6644     % 
+UB: 122.5864123159304
+branching on 2 with b.
+933    229    32         111.7832   122.5864   9.6644     % 
+UB: 122.5864123159304
+branching on 3 with b.
+934    230    32         111.7832   122.5864   9.6644     % 
+UB: 122.5864123159304
+branching on 3 with b.
+935    231    33         111.7832   122.5864   9.6644     % 
+UB: 122.5864123159304
+branching on 1 with b.
+936    232    33         111.7832   122.5864   9.6644     % 
+UB: 122.5864123159304
+branching on 1 with b.
+937    233    28         111.7832   122.5864   9.6644     % 
+UB: 122.5864123159304
+branching on 1 with b.
+938    234    28         111.7832   122.5864   9.6644     % 
+UB: 122.5864123159304
+branching on 1 with b.
+939    235    29         111.7832   122.5864   9.6644     % 
+UB: 122.5864123159304
+branching on 2 with b.
+940    236    30         111.7832   122.5864   9.6644     % 
+LB close or above UB, fathomed
+941    235    30         111.7832   122.5864   9.6644     % 
+LB close or above UB, fathomed
+942    234    29         111.7832   122.5864   9.6644     % 
+UB: 122.5864123159304
+branching on 2 with b.
+943    235    30         111.7832   122.5864   9.6644     % 
+LB close or above UB, fathomed
+944    234    30         111.7832   122.5864   9.6644     % 
+LB close or above UB, fathomed
+945    233    28         111.7832   122.5864   9.6644     % 
+UB: 122.5864123159304
+branching on 1 with b.
+946    234    29         111.7832   122.5864   9.6644     % 
+UB: 122.5864123159304
+branching on 2 with b.
+947    235    30         111.7832   122.5864   9.6644     % 
+LB close or above UB, fathomed
+948    234    30         111.7832   122.5864   9.6644     % 
+LB close or above UB, fathomed
+949    233    29         111.7832   122.5864   9.6644     % 
+UB: 122.5864123159304
+branching on 2 with b.
+950    234    30         111.7832   122.5864   9.6644     % 
+LB close or above UB, fathomed
+951    233    30         111.7832   122.5864   9.6644     % 
+LB close or above UB, fathomed
+952    232    28         111.7832   122.5864   9.6644     % 
+UB: 122.5864123159304
+branching on 1 with b.
+953    233    29         111.7832   122.5864   9.6644     % 
+UB: 122.5864123159304
+branching on 2 with b.
+954    234    30         111.7832   122.5864   9.6644     % 
+LB close or above UB, fathomed
+955    233    30         111.7832   122.5864   9.6644     % 
+LB close or above UB, fathomed
+956    232    29         111.7832   122.5864   9.6644     % 
+UB: 122.5864123159304
+branching on 2 with b.
+957    233    30         111.7832   122.5864   9.6644     % 
+LB close or above UB, fathomed
+958    232    30         111.7832   122.5864   9.6644     % 
+LB close or above UB, fathomed
+959    231    28         111.7832   122.5864   9.6644     % 
+UB: 122.5864123159304
+branching on 1 with b.
+960    232    29         111.7832   122.5864   9.6644     % 
+UB: 122.5864123159304
+branching on 2 with b.
+961    233    30         111.7832   122.5864   9.6644     % 
+LB close or above UB, fathomed
+962    232    30         111.7832   122.5864   9.6644     % 
+LB close or above UB, fathomed
+963    231    29         111.7832   122.5864   9.6644     % 
+UB: 122.5864123159304
+branching on 2 with b.
+964    232    30         111.7832   122.5864   9.6644     % 
+LB close or above UB, fathomed
+965    231    30         111.7832   122.5864   9.6644     % 
+LB close or above UB, fathomed
+966    230    28         111.7832   122.5864   9.6644     % 
+LB close or above UB, fathomed
+967    229    22         111.7832   122.5864   9.6644     % 
+LB close or above UB, fathomed
+968    228    22         111.7832   122.5864   9.6644     % 
+LB close or above UB, fathomed
+969    227    22         111.7832   122.5864   9.6644     % 
+LB close or above UB, fathomed
+970    226    22         111.7832   122.5864   9.6644     % 
+LB close or above UB, fathomed
+971    225    26         111.7832   122.5864   9.6644     % 
+LB close or above UB, fathomed
+972    224    26         111.7832   122.5864   9.6644     % 
+LB close or above UB, fathomed
+973    223    22         111.7832   122.5864   9.6644     % 
+LB close or above UB, fathomed
+974    222    22         111.7832   122.5864   9.6644     % 
+UB: 122.5864123159304
+branching on 2 with b.
+975    223    23         111.7832   122.5864   9.6644     % 
+LB close or above UB, fathomed
+976    222    23         111.7832   122.5864   9.6644     % 
+UB: 122.5864123159304
+branching on 3 with b.
+977    223    24         111.7832   122.5864   9.6644     % 
+UB: 122.5864123159304
+branching on 1 with b.
+978    224    25         111.7832   122.5864   9.6644     % 
+UB: 122.5864123159304
+branching on 2 with b.
+979    225    25         111.7832   122.5864   9.6644     % 
+UB: 122.5864123159304
+branching on 2 with b.
+980    226    24         111.7832   122.5864   9.6644     % 
+LB close or above UB, fathomed
+981    225    28         111.7832   122.5864   9.6644     % 
+LB close or above UB, fathomed
+982    224    28         111.7832   122.5864   9.6644     % 
+UB: 122.5864123159304
+branching on 2 with b.
+983    225    29         111.7832   122.5864   9.6644     % 
+UB: 122.5864123159304
+branching on 3 with b.
+984    226    30         111.7832   122.5864   9.6644     % 
+LB close or above UB, fathomed
+985    225    30         111.7832   122.5864   9.6644     % 
+UB: 122.5864123159304
+branching on 1 with b.
+986    226    29         111.7832   122.5864   9.6644     % 
+LB close or above UB, fathomed
+987    225    22         111.7832   122.5864   9.6644     % 
+LB close or above UB, fathomed
+988    224    22         111.7832   122.5864   9.6644     % 
+LB close or above UB, fathomed
+989    223    21         111.7832   122.5864   9.6644     % 
+LB close or above UB, fathomed
+990    222    21         111.7832   122.5864   9.6644     % 
+LB close or above UB, fathomed
+991    221    28         111.7832   122.5864   9.6644     % 
+LB close or above UB, fathomed
+992    220    28         111.7832   122.5864   9.6644     % 
+UB: 122.5864123159304
+branching on 2 with b.
+993    221    29         111.7832   122.5864   9.6644     % 
+UB: 122.5864123159304
+branching on 3 with b.
+994    222    30         111.7832   122.5864   9.6644     % 
+LB close or above UB, fathomed
+995    221    30         111.7832   122.5864   9.6644     % 
+UB: 122.5864123159304
+branching on 1 with b.
+996    222    29         111.7832   122.5864   9.6644     % 
+LB close or above UB, fathomed
+997    221    19         111.7832   122.5864   9.6644     % 
+UB: 122.5864123159304
+branching on 1 with b.
+998    222    20         111.7832   122.5864   9.6644     % 
+LB close or above UB, fathomed
+999    221    20         111.7832   122.5864   9.6644     % 
+LB close or above UB, fathomed
+1000   220    19         111.7832   122.5864   9.6644     % 
+UB: 122.5864123159304
+branching on 1 with b.
+1001   221    19         111.7832   122.5864   9.6644     % 
+UB: 122.5864123159304
+branching on 1 with b.
+1002   222    20         111.7832   122.5864   9.6644     % 
+LB close or above UB, fathomed
+1003   221    20         111.7832   122.5864   9.6644     % 
+LB close or above UB, fathomed
+1004   220    19         111.7832   122.5864   9.6644     % 
+UB: 122.5864123159304
+branching on 1 with b.
+1005   221    20         111.7832   122.5864   9.6644     % 
+LB close or above UB, fathomed
+1006   220    20         111.7832   122.5864   9.6644     % 
+LB close or above UB, fathomed
+1007   219    14         111.7832   122.5864   9.6644     % 
+LB close or above UB, fathomed
+1008   218    14         111.7832   122.5864   9.6644     % 
+UB: 122.5864123159304
+branching on CartesianIndex(1, 3) with a.
+1009   219    20         111.7832   122.5864   9.6644     % 
+LB close or above UB, fathomed
+1010   218    20         111.7832   122.5864   9.6644     % 
+LB close or above UB, fathomed
+1011   217    20         111.7832   122.5864   9.6644     % 
+LB close or above UB, fathomed
+1012   216    20         111.7832   122.5864   9.6644     % 
+LB close or above UB, fathomed
+1013   215    22         111.7832   122.5864   9.6644     % 
+LB close or above UB, fathomed
+1014   214    22         111.7832   122.5864   9.6644     % 
+LB close or above UB, fathomed
+1015   213    21         111.7832   122.5864   9.6644     % 
+LB close or above UB, fathomed
+1016   212    21         111.7832   122.5864   9.6644     % 
+LB close or above UB, fathomed
+1017   211    34         111.7832   122.5864   9.6644     % 
+UB: 120.78587684069613
+branching on 2 with b.
+1018   212    35         111.7832   120.7859   8.0537     % 
+UB: 120.78587684069613
+branching on 3 with b.
+1019   185    36         111.7832   120.7859   8.0537     % 
+UB: 120.78587684069613
+branching on 1 with b.
+1020   186    36         111.7832   120.7859   8.0537     % 
+UB: 120.78587684069613
+branching on 1 with b.
+1021   187    35         111.7832   120.7859   8.0537     % 
+UB: 120.78587684069613
+branching on 3 with b.
+1022   188    34         111.7832   120.7859   8.0537     % 
+UB: 120.78587684069613
+branching on 2 with b.
+1023   189    21         111.7832   120.7859   8.0537     % 
+UB: 120.78587684069613
+branching on 1 with b.
+1024   190    22         111.7832   120.7859   8.0537     % 
+LB close or above UB, fathomed
+1025   189    22         111.7832   120.7859   8.0537     % 
+LB close or above UB, fathomed
+1026   188    21         111.7832   120.7859   8.0537     % 
+UB: 120.78587684069613
+branching on 1 with b.
+1027   189    22         111.7832   120.7859   8.0537     % 
+LB close or above UB, fathomed
+1028   188    22         111.7832   120.7859   8.0537     % 
+LB close or above UB, fathomed
+1029   187    12         112.1435   120.7859   7.7066     % 
+UB: 120.78587684069613
+branching on 3 with b.
+1030   188    12         112.1435   120.7859   7.7066     % 
+LB close or above UB, fathomed
+1031   187    28         113.5837   120.7859   6.3408     % 
+UB: 120.78587684069613
+branching on 2 with b.
+1032   188    28         113.5837   120.7859   6.3408     % 
+LB close or above UB, fathomed
+1033   187    18         113.5837   120.7859   6.3408     % 
+LB close or above UB, fathomed
+1034   186    18         113.5837   120.7859   6.3408     % 
+UB: 120.78587684069613
+branching on 2 with b.
+1035   187    29         113.5837   120.7859   6.3408     % 
+LB close or above UB, fathomed
+1036   186    29         113.5837   120.7859   6.3408     % 
+UB: 120.78587684069613
+branching on 3 with b.
+1037   187    27         113.5837   120.7859   6.3408     % 
+LB close or above UB, fathomed
+1038   186    27         113.5837   120.7859   6.3408     % 
+UB: 120.78587684069613
+branching on 3 with b.
+1039   187    27         113.5837   120.7859   6.3408     % 
+LB close or above UB, fathomed
+1040   186    27         113.5837   120.7859   6.3408     % 
+UB: 120.78587684069613
+branching on 3 with b.
+1041   187    27         113.5837   120.7859   6.3408     % 
+LB close or above UB, fathomed
+1042   186    27         113.5837   120.7859   6.3408     % 
+UB: 120.78587684069613
+branching on 3 with b.
+1043   187    26         113.5837   120.7859   6.3408     % 
+UB: 120.78587684069613
+branching on 2 with b.
+1044   188    26         113.5837   120.7859   6.3408     % 
+UB: 120.78587684069613
+branching on 2 with b.
+1045   189    25         113.5837   120.7859   6.3408     % 
+UB: 120.78587684069613
+branching on 1 with b.
+1046   190    26         113.5837   120.7859   6.3408     % 
+UB: 120.78587684069613
+branching on 2 with b.
+1047   191    27         113.5837   120.7859   6.3408     % 
+LB close or above UB, fathomed
+1048   190    27         113.5837   120.7859   6.3408     % 
+LB close or above UB, fathomed
+1049   189    26         113.5837   120.7859   6.3408     % 
+UB: 120.78587684069613
+branching on 2 with b.
+1050   190    27         113.5837   120.7859   6.3408     % 
+LB close or above UB, fathomed
+1051   189    27         113.5837   120.7859   6.3408     % 
+LB close or above UB, fathomed
+1052   188    25         113.5837   120.7859   6.3408     % 
+UB: 120.78587684069613
+branching on 1 with b.
+1053   189    26         113.5837   120.7859   6.3408     % 
+UB: 120.78587684069613
+branching on 2 with b.
+1054   190    27         113.5837   120.7859   6.3408     % 
+LB close or above UB, fathomed
+1055   189    27         113.5837   120.7859   6.3408     % 
+LB close or above UB, fathomed
+1056   188    26         113.5837   120.7859   6.3408     % 
+UB: 120.78587684069613
+branching on 2 with b.
+1057   189    27         113.5837   120.7859   6.3408     % 
+LB close or above UB, fathomed
+1058   188    27         113.5837   120.7859   6.3408     % 
+LB close or above UB, fathomed
+1059   187    27         113.5837   120.7859   6.3408     % 
+LB close or above UB, fathomed
+1060   186    27         113.5837   120.7859   6.3408     % 
+UB: 120.78587684069613
+branching on 3 with b.
+1061   187    28         113.5837   120.7859   6.3408     % 
+UB: 120.78587684069613
+branching on 1 with b.
+1062   188    28         113.5837   120.7859   6.3408     % 
+UB: 120.78587684069613
+branching on 1 with b.
+1063   189    29         113.5837   120.7859   6.3408     % 
+UB: 120.78587684069613
+branching on 2 with b.
+1064   190    29         113.5837   120.7859   6.3408     % 
+UB: 120.78587684069613
+branching on 2 with b.
+1065   191    28         113.5837   120.7859   6.3408     % 
+UB: 120.78587684069613
+branching on 1 with b.
+1066   192    29         113.5837   120.7859   6.3408     % 
+UB: 120.78587684069613
+branching on 2 with b.
+1067   193    29         113.5837   120.7859   6.3408     % 
+UB: 120.78587684069613
+branching on 2 with b.
+1068   194    28         113.5837   120.7859   6.3408     % 
+UB: 120.78587684069613
+branching on 1 with b.
+1069   195    29         113.5837   120.7859   6.3408     % 
+UB: 120.78587684069613
+branching on 2 with b.
+1070   196    29         113.5837   120.7859   6.3408     % 
+UB: 120.78587684069613
+branching on 2 with b.
+1071   197    28         113.5837   120.7859   6.3408     % 
+UB: 120.78587684069613
+branching on 1 with b.
+1072   198    29         113.5837   120.7859   6.3408     % 
+UB: 120.78587684069613
+branching on 2 with b.
+1073   199    29         113.5837   120.7859   6.3408     % 
+UB: 120.78587684069613
+branching on 2 with b.
+1074   200    28         113.5837   120.7859   6.3408     % 
+LB close or above UB, fathomed
+1075   199    19         113.5837   120.7859   6.3408     % 
+UB: 120.78587684069613
+branching on 3 with b.
+1076   200    20         113.5837   120.7859   6.3408     % 
+LB close or above UB, fathomed
+1077   199    20         113.5837   120.7859   6.3408     % 
+UB: 120.78587684069613
+branching on 1 with b.
+1078   200    21         113.5837   120.7859   6.3408     % 
+LB close or above UB, fathomed
+1079   199    21         113.5837   120.7859   6.3408     % 
+LB close or above UB, fathomed
+1080   198    19         113.5837   120.7859   6.3408     % 
+LB close or above UB, fathomed
+1081   197    35         113.5837   120.7859   6.3408     % 
+UB: 120.78587684069613
+branching on 3 with b.
+1082   198    36         113.5837   120.7859   6.3408     % 
+UB: 120.78587684069613
+branching on 1 with b.
+1083   199    36         113.5837   120.7859   6.3408     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1084   200    35         113.5837   118.9853   4.7556     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1085   155    36         113.5837   118.9853   4.7556     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1086   156    36         113.5837   118.9853   4.7556     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1087   157    15         113.5837   118.9853   4.7556     % 
+LB close or above UB, fathomed
+1088   156    15         113.5837   118.9853   4.7556     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1089   157    16         113.5837   118.9853   4.7556     % 
+LB close or above UB, fathomed
+1090   156    16         113.5837   118.9853   4.7556     % 
+LB close or above UB, fathomed
+1091   155    31         113.5837   118.9853   4.7556     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1092   156    31         113.5837   118.9853   4.7556     % 
+LB close or above UB, fathomed
+1093   155    29         113.5837   118.9853   4.7556     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1094   156    30         113.5837   118.9853   4.7556     % 
+LB close or above UB, fathomed
+1095   155    30         113.5837   118.9853   4.7556     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1096   156    29         113.5837   118.9853   4.7556     % 
+LB close or above UB, fathomed
+1097   155    31         113.5837   118.9853   4.7556     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1098   156    31         113.5837   118.9853   4.7556     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1099   157    32         113.5837   118.9853   4.7556     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1100   158    32         113.5837   118.9853   4.7556     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1101   159    33         113.5837   118.9853   4.7556     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1102   160    33         113.5837   118.9853   4.7556     % 
+LB close or above UB, fathomed
+1103   159    29         113.5837   118.9853   4.7556     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1104   160    30         113.5837   118.9853   4.7556     % 
+LB close or above UB, fathomed
+1105   159    30         113.5837   118.9853   4.7556     % 
+LB close or above UB, fathomed
+1106   158    29         113.5837   118.9853   4.7556     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1107   159    30         113.5837   118.9853   4.7556     % 
+LB close or above UB, fathomed
+1108   158    30         113.5837   118.9853   4.7556     % 
+LB close or above UB, fathomed
+1109   157    29         113.5837   118.9853   4.7556     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1110   158    30         113.5837   118.9853   4.7556     % 
+LB close or above UB, fathomed
+1111   157    30         113.5837   118.9853   4.7556     % 
+LB close or above UB, fathomed
+1112   156    29         113.5837   118.9853   4.7556     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1113   157    27         113.5837   118.9853   4.7556     % 
+LB close or above UB, fathomed
+1114   156    27         113.5837   118.9853   4.7556     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1115   157    27         113.5837   118.9853   4.7556     % 
+LB close or above UB, fathomed
+1116   156    27         113.5837   118.9853   4.7556     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1117   157    27         113.5837   118.9853   4.7556     % 
+LB close or above UB, fathomed
+1118   156    27         113.5837   118.9853   4.7556     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1119   157    27         113.5837   118.9853   4.7556     % 
+LB close or above UB, fathomed
+1120   156    27         113.5837   118.9853   4.7556     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1121   157    27         113.5837   118.9853   4.7556     % 
+LB close or above UB, fathomed
+1122   156    27         113.5837   118.9853   4.7556     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1123   157    34         113.5837   118.9853   4.7556     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1124   158    35         113.5837   118.9853   4.7556     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1125   159    36         113.5837   118.9853   4.7556     % 
+LB close or above UB, fathomed
+1126   158    36         113.5837   118.9853   4.7556     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1127   159    35         113.5837   118.9853   4.7556     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1128   160    34         113.5837   118.9853   4.7556     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1129   161    32         113.5837   118.9853   4.7556     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1130   162    32         113.5837   118.9853   4.7556     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1131   163    33         113.5837   118.9853   4.7556     % 
+LB close or above UB, fathomed
+1132   162    33         113.5837   118.9853   4.7556     % 
+LB close or above UB, fathomed
+1133   161    22         113.5837   118.9853   4.7556     % 
+LB close or above UB, fathomed
+1134   160    22         113.5837   118.9853   4.7556     % 
+LB close or above UB, fathomed
+1135   159    19         113.5837   118.9853   4.7556     % 
+LB close or above UB, fathomed
+1136   158    19         113.5837   118.9853   4.7556     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1137   159    20         113.5837   118.9853   4.7556     % 
+LB close or above UB, fathomed
+1138   158    20         113.5837   118.9853   4.7556     % 
+LB close or above UB, fathomed
+1139   157    11         113.5837   118.9853   4.7556     % 
+LB close or above UB, fathomed
+1140   156    11         113.5837   118.9853   4.7556     % 
+UB: 118.98534136546186
+branching on CartesianIndex(2, 1) with a.
+1141   157    28         113.5837   118.9853   4.7556     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1142   158    28         113.5837   118.9853   4.7556     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1143   159    29         113.5837   118.9853   4.7556     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1144   160    30         113.5837   118.9853   4.7556     % 
+LB close or above UB, fathomed
+1145   159    30         113.5837   118.9853   4.7556     % 
+LB close or above UB, fathomed
+1146   158    29         113.5837   118.9853   4.7556     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1147   159    28         113.5837   118.9853   4.7556     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1148   160    29         113.5837   118.9853   4.7556     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1149   161    30         113.5837   118.9853   4.7556     % 
+LB close or above UB, fathomed
+1150   160    30         113.5837   118.9853   4.7556     % 
+LB close or above UB, fathomed
+1151   159    29         113.5837   118.9853   4.7556     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1152   160    28         113.5837   118.9853   4.7556     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1153   161    29         113.5837   118.9853   4.7556     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1154   162    30         113.5837   118.9853   4.7556     % 
+LB close or above UB, fathomed
+1155   161    30         113.5837   118.9853   4.7556     % 
+LB close or above UB, fathomed
+1156   160    29         113.5837   118.9853   4.7556     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1157   161    28         113.5837   118.9853   4.7556     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1158   162    29         113.5837   118.9853   4.7556     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1159   163    30         113.5837   118.9853   4.7556     % 
+LB close or above UB, fathomed
+1160   162    30         113.5837   118.9853   4.7556     % 
+LB close or above UB, fathomed
+1161   161    29         113.5837   118.9853   4.7556     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1162   162    28         113.5837   118.9853   4.7556     % 
+LB close or above UB, fathomed
+1163   161    23         113.5837   118.9853   4.7556     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1164   162    24         113.5837   118.9853   4.7556     % 
+LB close or above UB, fathomed
+1165   161    24         113.5837   118.9853   4.7556     % 
+LB close or above UB, fathomed
+1166   160    23         113.5837   118.9853   4.7556     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1167   161    34         113.5837   118.9853   4.7556     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1168   162    35         113.5837   118.9853   4.7556     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1169   163    36         113.5837   118.9853   4.7556     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1170   164    37         113.5837   118.9853   4.7556     % 
+LB close or above UB, fathomed
+1171   163    37         113.5837   118.9853   4.7556     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1172   164    38         113.5837   118.9853   4.7556     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1173   165    38         113.5837   118.9853   4.7556     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1174   166    39         113.5837   118.9853   4.7556     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1175   167    39         113.5837   118.9853   4.7556     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1176   168    36         113.5837   118.9853   4.7556     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1177   169    35         113.5837   118.9853   4.7556     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1178   170    34         113.5837   118.9853   4.7556     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1179   171    33         113.5837   118.9853   4.7556     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1180   172    33         113.5837   118.9853   4.7556     % 
+LB close or above UB, fathomed
+1181   171    12         115.3757   118.9853   3.1286     % 
+LB close or above UB, fathomed
+1182   170    12         115.3757   118.9853   3.1286     % 
+LB close or above UB, fathomed
+1183   169    12         115.3842   118.9853   3.1210     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1184   170    13         115.3842   118.9853   3.1210     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1185   171    13         115.3842   118.9853   3.1210     % 
+LB close or above UB, fathomed
+1186   170    12         115.3842   118.9853   3.1210     % 
+LB close or above UB, fathomed
+1187   169    22         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1188   168    22         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1189   167    28         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1190   168    29         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1191   169    30         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1192   168    30         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1193   167    29         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1194   166    28         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1195   167    29         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1196   168    30         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1197   167    30         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1198   166    29         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1199   165    28         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1200   166    29         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1201   167    30         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1202   166    30         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1203   165    29         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1204   164    28         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1205   163    28         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1206   164    29         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1207   165    30         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1208   164    30         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1209   163    29         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1210   162    28         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1211   163    29         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1212   164    30         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1213   163    30         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1214   162    29         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1215   161    21         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1216   162    22         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1217   163    22         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1218   162    21         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1219   161    22         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1220   160    22         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1221   161    23         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1222   160    23         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1223   161    24         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1224   162    25         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1225   163    26         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1226   162    26         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1227   161    25         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1228   160    24         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1229   159    23         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1230   158    23         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1231   157    28         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1232   158    28         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1233   159    29         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1234   160    29         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1235   159    32         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1236   158    32         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1237   159    33         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1238   158    33         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1239   157    30         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1240   156    30         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1241   155    26         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1242   154    26         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1243   155    27         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1244   156    28         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1245   155    28         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1246   154    27         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1247   153    33         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1248   152    33         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1249   151    30         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1250   150    30         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1251   149    30         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1252   148    30         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1253   147    30         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1254   146    30         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1255   145    30         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1256   144    30         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1257   143    24         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1258   142    24         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1259   141    25         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1260   142    26         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1261   143    27         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1262   142    27         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1263   141    26         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1264   140    25         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1265   141    26         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1266   142    27         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1267   141    27         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1268   140    26         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1269   139    25         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1270   140    26         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1271   141    27         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1272   140    27         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1273   139    26         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1274   138    25         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1275   139    26         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1276   140    27         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1277   139    27         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1278   138    26         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1279   137    16         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on CartesianIndex(1, 5) with c.
+1280   138    16         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1281   137    29         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1282   138    30         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1283   137    30         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1284   136    29         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1285   137    35         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1286   138    36         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1287   137    36         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1288   136    35         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1289   137    36         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1290   136    36         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1291   135    28         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1292   136    28         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1293   137    29         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1294   138    30         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1295   137    30         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1296   136    29         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1297   135    31         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1298   134    31         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1299   135    32         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1300   134    32         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1301   135    33         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1302   134    33         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1303   133    30         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1304   132    30         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1305   131    30         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1306   130    30         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1307   129    30         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1308   128    30         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1309   127    30         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1310   126    30         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1311   125    28         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1312   126    28         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1313   127    29         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1314   128    30         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1315   127    30         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1316   126    29         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1317   127    30         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1318   126    30         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1319   125    32         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1320   124    32         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1321   125    33         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1322   124    33         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1323   125    34         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1324   126    34         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1325   127    33         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1326   126    33         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1327   125    25         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1328   124    25         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1329   125    25         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1330   124    25         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1331   125    26         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1332   126    26         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1333   127    27         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1334   126    27         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1335   125    26         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1336   124    26         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1337   123    17         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1338   122    17         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on CartesianIndex(1, 6) with c.
+1339   123    18         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1340   122    18         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1341   121    35         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1342   122    36         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1343   123    37         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1344   124    38         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1345   125    38         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1346   126    39         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1347   127    39         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1348   126    37         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1349   125    36         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1350   124    35         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1351   125    36         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1352   126    37         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1353   125    37         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1354   126    38         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1355   127    39         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1356   128    39         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1357   127    38         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1358   126    36         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1359   125    40         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1360   124    40         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1361   125    41         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1362   126    42         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1363   127    43         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1364   128    43         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1365   129    42         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1366   128    41         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1367   129    42         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1368   130    43         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1369   130    43         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1370   130    42         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1371   129    39         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1372   130    39         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1373   129    30         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1374   128    30         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1375   127    30         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1376   126    30         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1377   125    30         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1378   124    30         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1379   123    30         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1380   122    30         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1381   121    36         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1382   120    36         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1383   119    37         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1384   118    37         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1385   119    38         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1386   120    38         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1387   121    39         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1388   120    39         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1389   121    37         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1390   120    37         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1391   121    38         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1392   122    38         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1393   123    39         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1394   122    39         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1395   123    40         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1396   122    40         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1397   123    41         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1398   124    42         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1399   125    42         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1400   126    43         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1401   127    43         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1402   128    41         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1403   129    42         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1404   130    42         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1405   131    43         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1406   131    43         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1407   131    31         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1408   130    31         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1409   129    28         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1410   130    28         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1411   131    29         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1412   132    30         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1413   131    30         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1414   130    29         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1415   129    28         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1416   130    29         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1417   131    30         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1418   130    30         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1419   129    29         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1420   128    28         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1421   127    28         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1422   128    29         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1423   129    30         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1424   128    30         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1425   127    29         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1426   126    28         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1427   127    29         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1428   128    30         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1429   127    30         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1430   126    29         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1431   125    28         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1432   124    28         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1433   125    29         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1434   124    29         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1435   125    28         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1436   126    29         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1437   125    29         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1438   126    28         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1439   127    29         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1440   126    29         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1441   127    28         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1442   128    29         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1443   127    29         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1444   128    28         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1445   127    25         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1446   126    25         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1447   127    26         115.3843   118.9853   3.1209     % 
+LB close or above UB, fathomed
+1448   126    26         115.3843   118.9853   3.1209     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1449   127    14         117.1656   118.9853   1.5532     % 
+LB close or above UB, fathomed
+1450   126    14         117.1656   118.9853   1.5532     % 
+LB close or above UB, fathomed
+1451   125    29         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1452   126    30         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1453   125    30         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1454   124    29         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1455   123    17         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1456   122    17         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1457   121    15         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on CartesianIndex(1, 5) with c.
+1458   122    15         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1459   121    16         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1460   120    16         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on CartesianIndex(1, 6) with c.
+1461   121    17         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1462   120    17         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1463   119    30         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1464   118    30         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1465   117    23         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1466   118    24         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1467   117    24         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1468   116    23         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1469   115    13         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on CartesianIndex(3, 1) with a.
+1470   116    14         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1471   115    14         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1472   114    13         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1473   113    23         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1474   114    24         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1475   113    24         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1476   114    25         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1477   113    25         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1478   112    23         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1479   111    30         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1480   110    30         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1481   109    30         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1482   108    30         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1483   107    30         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1484   106    30         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1485   105    30         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1486   104    30         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1487   103    29         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1488   104    30         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1489   103    30         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1490   102    29         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1491   101    27         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1492   100    27         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1493   99     35         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1494   100    36         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1495   101    37         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1496   102    38         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1497   101    38         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1498   102    39         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1499   101    39         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1500   100    37         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1501   99     36         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1502   98     35         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1503   97     35         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1504   98     36         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1505   99     37         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1506   98     37         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1507   99     38         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1508   98     38         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1509   99     39         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1510   98     39         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1511   97     36         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1512   96     35         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1513   95     34         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1514   96     35         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1515   97     36         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1516   96     36         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1517   95     35         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1518   94     34         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1519   93     29         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1520   94     30         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1521   93     30         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1522   92     29         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1523   93     30         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1524   92     30         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1525   91     32         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1526   90     32         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1527   91     33         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1528   90     33         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1529   89     29         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1530   90     30         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1531   89     30         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1532   88     29         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1533   87     36         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1534   86     36         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1535   85     30         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1536   84     30         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1537   83     29         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1538   82     29         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1539   81     24         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1540   80     24         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1541   79     12         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1542   78     12         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1543   77     33         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1544   76     33         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1545   75     37         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1546   74     37         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1547   75     38         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1548   74     38         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1549   75     39         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1550   74     39         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1551   73     30         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1552   72     30         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1553   71     34         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1554   70     34         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1555   71     35         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1556   72     36         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1557   71     36         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1558   70     35         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1559   69     33         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1560   68     33         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1561   67     29         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1562   66     29         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1563   65     34         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1564   64     34         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1565   65     35         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1566   66     36         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1567   65     36         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1568   64     35         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1569   63     26         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1570   62     26         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1571   61     11         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1572   60     11         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on CartesianIndex(1, 3) with a.
+1573   61     12         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1574   62     13         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1575   61     13         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on CartesianIndex(2, 3) with a.
+1576   62     14         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1577   61     14         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1578   60     12         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1579   59     28         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1580   58     28         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1581   59     29         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1582   60     30         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1583   59     30         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1584   58     29         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1585   57     28         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1586   56     28         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1587   57     29         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1588   58     30         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1589   57     30         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1590   56     29         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1591   55     28         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1592   56     29         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1593   57     30         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1594   56     30         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1595   55     29         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1596   54     28         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1597   55     29         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1598   56     30         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1599   55     30         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1600   54     29         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1601   53     28         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1602   54     29         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1603   55     30         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1604   54     30         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1605   53     29         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1606   52     28         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1607   51     10         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1608   50     10         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1609   49     27         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1610   48     27         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1611   47     44         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1612   48     45         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1613   47     45         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1614   46     44         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1615   47     45         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1616   46     45         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1617   45     43         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1618   44     43         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1619   43     44         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1620   42     44         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1621   43     45         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1622   42     45         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1623   41     44         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1624   40     44         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1625   41     45         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1626   40     45         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1627   39     43         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1628   38     43         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1629   37     39         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1630   36     39         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1631   37     40         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1632   36     40         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1633   36     41         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1634   37     42         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1635   36     42         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1636   37     43         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1637   36     43         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1638   35     40         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1639   34     40         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1640   35     41         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1641   36     42         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1642   37     43         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1643   36     43         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1644   35     42         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1645   36     43         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1646   35     43         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1647   34     41         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1648   35     42         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1649   36     43         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1650   35     43         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1651   34     42         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1652   35     43         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1653   34     43         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1654   33     39         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1655   32     39         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1656   31     40         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1657   30     40         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1658   30     41         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1659   31     42         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1660   32     43         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1661   31     43         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1662   30     42         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1663   29     44         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1664   29     45         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1665   29     46         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1666   29     47         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1667   30     48         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1668   29     48         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1669   28     44         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1670   28     45         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1671   28     46         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1672   28     47         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1673   29     48         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1674   28     48         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1675   27     44         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1676   26     44         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1677   26     45         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1678   26     46         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1679   26     47         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1680   27     48         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1681   26     48         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1682   25     44         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1683   24     44         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1684   24     45         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1685   24     46         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1686   24     47         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1687   25     48         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1688   24     48         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1689   23     40         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1690   22     40         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1691   23     41         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1692   24     42         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1693   25     43         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1694   24     43         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1695   23     42         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1696   22     41         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1697   21     36         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1698   22     37         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1699   23     38         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1700   24     39         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1701   23     39         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1702   22     38         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1703   21     37         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1704   20     36         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1705   19     40         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1706   20     41         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1707   21     42         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1708   22     43         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1709   23     44         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1710   22     44         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1711   22     45         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1712   23     46         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1713   23     47         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1714   24     48         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1715   23     48         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1716   22     46         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1717   21     43         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1718   20     42         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1719   19     41         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1720   20     42         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1721   21     43         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1722   21     44         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1723   21     45         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1724   22     46         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1725   22     47         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1726   23     48         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1727   22     48         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1728   21     46         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1729   20     43         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1730   19     42         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1731   18     40         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1732   17     39         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1733   16     39         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1734   15     14         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1735   14     14         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on CartesianIndex(2, 2) with a.
+1736   15     15         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1737   14     15         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1738   13     34         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1739   14     35         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1740   13     35         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1741   14     36         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1742   13     36         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1743   12     34         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1744   11     37         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1745   10     37         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1746   11     38         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1747   10     38         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1748   11     39         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1749   12     40         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1750   11     40         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1751   12     41         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1752   13     42         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1753   14     43         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1754   13     43         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1755   12     42         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1756   11     41         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1757   12     42         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1758   13     43         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1759   12     43         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1760   11     42         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1761   10     39         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1762   9      40         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1763   8      40         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1764   9      41         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1765   9      42         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1766   10     43         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1767   9      43         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1768   8      41         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1769   8      42         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1770   9      43         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1771   8      43         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1772   7      37         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1773   6      37         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1774   7      38         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1775   8      39         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1776   7      39         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1777   6      38         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1778   5      37         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1779   4      37         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1780   5      38         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1781   6      39         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1782   5      39         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1783   6      40         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1784   5      40         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1785   6      41         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1786   7      42         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1787   6      42         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1788   7      43         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1789   6      43         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1790   5      41         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1791   4      38         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1792   3      37         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1793   4      38         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1794   3      38         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1795   4      39         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1796   3      39         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1797   2      37         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1798   1      37         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1799   2      38         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1800   1      38         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1801   2      39         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1802   1      39         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1803   2      40         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1804   3      41         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1805   4      42         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1806   3      42         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1807   4      43         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1808   5      44         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1809   4      44         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1810   5      45         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1811   4      45         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1812   3      43         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1813   2      41         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1814   3      42         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1815   2      42         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 1 with b.
+1816   3      43         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 2 with b.
+1817   3      44         117.1848   118.9853   1.5365     % 
+UB: 118.98534136546186
+branching on 3 with b.
+1818   4      45         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1819   3      45         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1820   2      43         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1821   1      40         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+1822   0      37         117.1848   118.9853   1.5365     % 
+LB close or above UB, fathomed
+all node solved
+solved nodes:  1823
+1823                                                  1.1899e+02     1.1899e+02     0.0000  % 
+4×3 Matrix{Float64}:
+ 1.0  0.0  1.0
+ 0.0  1.0  0.0
+ 0.0  0.0  0.0
+ 0.0  0.0  0.0
+3-element Vector{Float64}:
+ 0.4926401012572277
+ 0.8118224200223808
+ 0.6307388728636647
+2×7 Matrix{Float64}:
+ 0.0  0.0  0.0  0.0  1.0  1.0  1.0
+ 0.0  0.0  0.0  1.0  0.0  0.0  0.0
+3-element Vector{Float64}:
+ 1.0
+ 1.0
+ 1.0
+4×3 Matrix{Float64}:
+ 0.0  0.0  1.0
+ 0.0  1.0  0.0
+ 1.0  0.0  0.0
+ 0.0  0.0  0.0
+3-element Vector{Float64}:
+ 0.21485254135503815
+ 0.7084433398944431
+ 0.48230726574056376
+2×7 Matrix{Float64}:
+ 0.0  0.0  0.0  0.0  1.0  0.0  1.0
+ 0.0  0.0  0.0  1.0  0.0  1.0  0.0
+3-element Vector{Float64}:
+ 1.0
+ 1.0
+ 1.0
+comparison (CRT and Glb)on prediction: Dict{Bool, Int64}(0 => 47, 1 => 288)
+Dataname	 time	 objv	 lb	 gap	 train_w	 train_g	 test_w	 test_g
+banknote_29.banknote	 183.4	 118.98534136546186	 118.985	 0.0	 88.416	 93.465	 87.761	 90.448
+

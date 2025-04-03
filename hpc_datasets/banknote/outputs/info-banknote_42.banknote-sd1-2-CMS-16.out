@@ -1,0 +1,110 @@
+Running 16 processes.
+Start training banknote_42.banknote with seed 1.
+Any[]
+(4, 1345)
+(4, 672)
+(4, 336)
+(4, 337)
+dimension: 4, class: 2
+cart cost: 196.14598930481276
+size of X: (4, 1008)
+ngroups: 33
+UB: 147.59652406417115
+Iter	left	lev	LB	UB	gap	
+0      0      1          39.5925    147.5965   272.7888   % 
+UB: 147.59652406417115
+branching on 1 with d.
+1      1      2          39.5925    147.5965   272.7888   % 
+LB close or above UB, fathomed
+2      0      2          39.5925    147.5965   272.7888   % 
+UB: 147.59652406417115
+branching on 2 with d.
+3      1      3          39.5925    147.5965   272.7888   % 
+UB: 147.59652406417115
+branching on 3 with d.
+4      2      3          39.5925    147.5965   272.7888   % 
+UB: 147.59652406417115
+branching on 3 with d.
+5      3      4          39.5925    147.5965   272.7888   % 
+UB: 147.59652406417115
+branching on CartesianIndex(1, 1) with a.
+6      4      4          39.5925    147.5965   272.7888   % 
+UB: 147.59652406417115
+branching on 1 with b.
+7      5      5          39.6173    147.5965   272.5556   % 
+UB: 147.59652406417115
+branching on 1 with b.
+8      6      5          39.6173    147.5965   272.5556   % 
+UB: 147.59652406417115
+branching on 1 with b.
+9      7      6          55.8398    147.5965   164.3213   % 
+UB: 147.59652406417115
+branching on 2 with b.
+10     8      6          55.8398    147.5965   164.3213   % 
+UB: 147.59652406417115
+branching on 2 with b.
+11     9      6          57.6508    147.5965   156.0183   % 
+UB: 147.59652406417115
+branching on CartesianIndex(1, 1) with a.
+12     10     7          57.6508    147.5965   156.0183   % 
+UB: 147.59652406417115
+branching on 2 with b.
+13     11     7          57.6508    147.5965   156.0183   % 
+UB: 147.59652406417115
+branching on CartesianIndex(1, 2) with a.
+14     12     6          57.6508    147.5965   156.0183   % 
+UB: 147.59652406417115
+branching on CartesianIndex(1, 1) with a.
+15     13     7          59.4643    147.5965   148.2103   % 
+UB: 147.59652406417115
+branching on CartesianIndex(1, 1) with a.
+16     14     7          59.4643    147.5965   148.2103   % 
+UB: 147.59652406417115
+branching on 3 with b.
+17     15     8          59.4643    147.5965   148.2103   % 
+UB: 142.20213903743317
+branching on 1 with b.
+18     16     8          59.4643    142.2021   139.1387   % 
+UB: 142.20213903743317
+branching on 1 with b.
+19     17     8          63.0496    142.2021   125.5401   % 
+UB: 142.20213903743317
+branching on CartesianIndex(2, 1) with a.
+20     18     8          63.0496    142.2021   125.5401   % 
+UB: 142.20213903743317
+branching on 3 with b.
+21     19     9          63.0496    142.2021   125.5401   % 
+UB: 142.20213903743317
+branching on CartesianIndex(2, 1) with a.
+22     20     9          63.0496    142.2021   125.5401   % 
+UB: 142.20213903743317
+branching on CartesianIndex(2, 1) with a.
+23     21     10         68.4530    142.2021   107.7370   % 
+UB: 142.20213903743317
+branching on CartesianIndex(3, 1) with a.
+24     22     10         68.4530    142.2021   107.7370   % 
+UB: 142.20213903743317
+branching on CartesianIndex(1, 2) with a.
+25     23     9          68.4549    142.2021   107.7310   % 
+UB: 142.20213903743317
+branching on CartesianIndex(1, 1) with a.
+26     24     9          68.4549    142.2021   107.7310   % 
+UB: 142.20213903743317
+branching on 2 with b.
+27     25     10         68.4549    142.2021   107.7310   % 
+UB: 142.20213903743317
+branching on CartesianIndex(1, 1) with a.
+28     26     11         68.4549    142.2021   107.7310   % 
+UB: 142.20213903743317
+branching on 3 with b.
+29     27     12         68.4549    142.2021   107.7310   % 
+LB close or above UB, fathomed
+30     26     12         68.4549    142.2021   107.7310   % 
+UB: 142.20213903743317
+branching on CartesianIndex(2, 1) with a.
+31     27     13         68.4549    142.2021   107.7310   % 
+LB close or above UB, fathomed
+33     27     14         68.4549    142.2021   107.7310   % 
+solved nodes:  1115
+4×3  
+ 
