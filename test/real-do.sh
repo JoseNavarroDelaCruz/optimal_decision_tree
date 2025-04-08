@@ -1,13 +1,15 @@
 #! /bin/bash
 #SBATCH --job-name=ODT_MultiData
-#SBATCH --nodes=1               # Adjust nodes if needed
-#SBATCH --ntasks-per-node=6      # Adjust number of tasks per node
-#SBATCH --mem=60GB
-#SBATCH --time=1:30:00           # Adjust time as needed
+#SBATCH --nodes=2               # Adjust nodes if needed
+#SBATCH --ntasks-per-node=128      # Adjust number of tasks per node
+#SBATCH --time=24:00:00           # Adjust time as needed
 #SBATCH --exclusive
 #SBATCH --output=info-%x-%a.out
 #SBATCH --error=info-%x-%a.err
-#SBATCH --array=6-1000           # Adjust the range as needed
+#SBATCH --array=1-2           # Adjust the range as needed
+#SBATCH --partition=amd_2021
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user=navarrodelacruz@usf.edu
 
 cd ${SLURM_SUBMIT_DIR}
 
@@ -27,7 +29,7 @@ which cplex
 i=${SLURM_ARRAY_TASK_ID}
 
 # Define the dataset for the current iteration
-dataset="body_${i}.body"
+dataset="wall-following_${i}.wall-following"
 
 # Debugging: Print the current dataset
 echo "Running for dataset: $dataset"
