@@ -1,6 +1,6 @@
 #! /bin/bash
 #SBATCH --job-name=ODT_MultiData
-#SBATCH --nodes=2               # Adjust nodes if needed
+#SBATCH --nodes=1               # Adjust nodes if needed
 #SBATCH --ntasks-per-node=128      # Adjust number of tasks per node
 #SBATCH --time=24:00:00           # Adjust time as needed
 #SBATCH --exclusive
