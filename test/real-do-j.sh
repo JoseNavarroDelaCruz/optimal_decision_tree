@@ -1,4 +1,4 @@
-#! /bin/bash
+#! /bin/bash -l
 #SBATCH --job-name=ODT_MultiData
 #SBATCH --nodes=2               # Adjust nodes if needed
 #SBATCH --ntasks-per-node=128      # Adjust number of tasks per node
@@ -11,19 +11,24 @@
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user=navarrodelacruz@usf.edu
 
-cd ${SLURM_SUBMIT_DIR}
+# Initialize the module system (if not automatically done)
+[ -f /etc/profile.d/modules.sh ] && source /etc/profile.d/modules.sh
 
-# Load necessary modules or set paths
-export PATH=$HOME/julia-1.7.2/bin:$HOME/openmpi-3.1.6/bin:$PATH
-export LD_LIBRARY_PATH=$HOME/openmpi-3.1.6/lib:$LD_LIBRARY_PATH
-export CPLEX_STUDIO_DIR=$HOME/cplex
-export PATH=$CPLEX_STUDIO_DIR/cplex/bin/x86-64_linux:$PATH
-export LD_LIBRARY_PATH=$CPLEX_STUDIO_DIR/cplex/lib/x86-64_linux:$LD_LIBRARY_PATH
+# Load the MPI module (this will set the correct environment for OpenMPI)
+module load mpi/openmpi/3.1.6
+
+# Set the environment for Julia and CPLEX
+export PATH=$HOME/julia-1.7.2/bin:$PATH
+export PATH=$HOME/cplex/cplex/bin/x86-64_linux:$PATH
+export LD_LIBRARY_PATH=$HOME/cplex/cplex/lib/x86-64_linux:$LD_LIBRARY_PATH
+
+# Change to the directory from which the job was submitted
+cd ${SLURM_SUBMIT_DIR}
 
 # Debugging paths
 which julia
 which mpiexec
-which cplex
+#which cplex
 
 # Set the value of `i` using the SLURM array task ID
 i=${SLURM_ARRAY_TASK_ID}
@@ -42,6 +47,6 @@ output_file="info-${dataset}-sd${seed}-2-CMS-${SLURM_NTASKS}.out"
 echo "Running with seed: $seed - Output file: $output_file"
 
 # Run the job with MPI
-mpiexec -n ${SLURM_NTASKS} julia test/test.jl 2 CF+MILP+SG $seed par "$dataset" > "$output_file"
+mpiexec -n ${SLURM_NTASKS} julia test.jl 2 CF+MILP+SG $seed par "$dataset" > "$output_file"
 
 echo ">>> Job completed for dataset: $dataset with seed: $seed"

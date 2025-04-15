@@ -1,0 +1,6 @@
+/home/n/navarrodelacruz/julia-1.7.2/bin/julia
+/home/n/navarrodelacruz/tools/openmpi/openmpi-4.1.1/bin/mpiexec
+/home/n/navarrodelacruz/local/cplex201/cplex/bin/x86-64_linux/cplex
+Running for dataset: wall-following_1.wall-following
+Running with seed: 1 - Output file: info-wall-following_1.wall-following-sd1-2-CMS-256.out
+>>> Job completed for dataset: wall-following_1.wall-following with seed: 1
