@@ -55,7 +55,7 @@ seed="1"
 output_file="$HOME/optimal_decision_tree/outputs/info-${dataset}-sd${seed}-2-CMS-${SLURM_NTASKS}.out"
 echo "Running with seed: $seed - Output file: $output_file"
 
-# Run the job with MPI
-$HOME/local/openmpi-4.1.1/bin/mpiexec -n ${SLURM_NTASKS} $HOME/julia-1.7.2/bin/julia test/test.jl 2 CF+MILP+SG $seed par "$dataset" > "$output_file"
+# Run the job with MPI (use absolute path for clarity)
+$HOME/local/openmpi-4.1.1/bin/mpiexec -n ${SLURM_NTASKS} $HOME/julia-1.7.2/bin/julia $HOME/optimal_decision_tree/test/test.jl 2 CF+MILP+SG $seed par "$dataset" > "$output_file"
 
 echo ">>> Job completed for dataset: $dataset with seed: $seed"
