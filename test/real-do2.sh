@@ -5,8 +5,8 @@
 #SBATCH --time=24:00:00           # Adjust time as needed
 #SBATCH --exclusive
 #SBATCH --array=1-2           # Adjust the range as needed
-#SBATCH --output=$HOME/optimal_decision_tree/outputs/info-%x-%a.out
-#SBATCH --error=$HOME/optimal_decision_tree/outputs/info-%x-%a.err
+#SBATCH --output=/home/n/navarrodelacruz/optimal_decision_tree/outputs/info-%x-%a.out
+#SBATCH --error=/home/n/navarrodelacruz/optimal_decision_tree/outputs/info-%x-%a.err
 #SBATCH --partition=amd_2021
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user=navarrodelacruz@usf.edu
@@ -52,6 +52,6 @@ echo "Running with seed: $seed - Output file: $output_file"
 
 # Run the job with MPI
 #mpiexec -n ${SLURM_NTASKS} julia test/test.jl 2 CF+MILP+SG $seed par "$dataset" > "$output_file"
-$HOME/local/openmpi-4.1.1/bin/mpiexec -n ${SLURM_NTASKS} $HOME/julia-1.7.2/bin/julia test/test.jl 2 CF+MILP+SG $seed par "$dataset" > "$output_file"
+$HOME/local/openmpi-4.1.1/bin/mpiexec -n ${SLURM_NTASKS} $HOME/julia-1.7.2/bin/julia test.jl 2 CF+MILP+SG $seed par "$dataset"
 
 echo ">>> Job completed for dataset: $dataset with seed: $seed"
