@@ -16,7 +16,15 @@
 mkdir -p $HOME/optimal_decision_tree/outputs
 
 
-cd ${SLURM_SUBMIT_DIR}
+cd $HOME/optimal_decision_tree
+
+# Debug working directory
+echo "Current working directory: $(pwd)"
+echo "Listing src directory:"
+ls -l src/*.jl
+echo "Listing test directory:"
+ls -l test/*.jl
+
 
 # Load necessary modules or set paths
 # Julia
