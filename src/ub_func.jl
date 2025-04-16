@@ -122,8 +122,8 @@ function warm_start_params(a,b,c,d,t,node,Tl)
         end
         c[t_leaf] = node.majority
     else
-        a[node.featid, t] = 1
-        b[t] = node.featval
+        a[node.feature, t] = 1
+        b[t] = node.cutoff
         d[t] = 1
         a,b,c,d = warm_start_params(a,b,c,d,2*t, node.left, Tl)
         a,b,c,d = warm_start_params(a,b,c,d,2*t+1, node.right, Tl)
