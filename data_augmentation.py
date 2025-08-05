@@ -3,8 +3,15 @@ import numpy as np
 import pandas as pd 
 
 # Define the source directory
-data_dir = r"C:\Users\Owner\Desktop\schoolstuff\research\optimal_decision_tree-main_13\optimal_decision_tree-main\data"
-output_dir = data_dir  # Save augmented files in the same directory
+if os.getenv("SLURM_JOB_ID"):
+    # HPC environment
+    data_dir = os.path.join(os.environ["HOME_REPO"], "optimal_decision_tree", "data")
+else:
+    # Local machine (customize for your actual path)
+    data_dir = r"C:\Users\navarrodelacruz\Documents\GitHub\optimal_decision_tree\data"
+
+output_dir = data_dir
+
 
 # Debugging: Confirm directory exists
 if not os.path.exists(data_dir):
@@ -12,12 +19,18 @@ if not os.path.exists(data_dir):
     exit()
 
 # Define parameters
-num_iterations = 1000  # Number of variations per file
+num_iterations = 140  # Number of variations per file
 noise_std_dev = 0.05   # Standard deviation for Gaussian noise
 removal_fraction = 0.02  # Fraction of rows to remove per iteration
 
-# Get list of all files (any type) in the data directory
-all_files = [f for f in os.listdir(data_dir) if os.path.isfile(os.path.join(data_dir, f))]
+# Choose which files to include (by substring match)
+filter_names = ["banknote"]  # <-- Edit this list to match desired datasets
+
+# Get list of files in the data directory that match one of the substrings
+all_files = [
+    f for f in os.listdir(data_dir)
+    if os.path.isfile(os.path.join(data_dir, f)) and any(name in f for name in filter_names)
+]
 
 # Debugging: Print found files
 if not all_files:
@@ -33,15 +46,25 @@ for filename in all_files:
         # Try reading the file as a CSV/TXT
         df = pd.read_csv(file_path, header=None, delimiter=None, engine='python')
 
-        # Debugging: Print the first few rows
         print(f"\nProcessing file: {filename}")
         print(df.head())
 
         # Identify the number of columns (assuming last one is the label)
         num_features = df.shape[1] - 1
 
+        # Extract base name (e.g., "glass" from "glass.txt")
+        base_name = filename.split('.')[0]
+
+        # === Create 'augmented_datasets' directory if not exist ===
+        project_root = os.path.abspath(os.path.join(data_dir, ".."))  # one level above /data
+        augmented_root = os.path.join(project_root, "augmented_datasets")
+        os.makedirs(augmented_root, exist_ok=True)
+
+        # === Create subdirectory for this dataset ===
+        dataset_dir = os.path.join(augmented_root, base_name)
+        os.makedirs(dataset_dir, exist_ok=True)
+
         for i in range(1, num_iterations + 1):
-            # Copy the dataframe
             df_aug = df.copy()
 
             # Apply Gaussian noise to feature columns
@@ -50,21 +73,21 @@ for filename in all_files:
 
             # Randomly remove a fraction of rows
             num_rows_to_remove = int(len(df_aug) * removal_fraction)
-            if num_rows_to_remove > 0:  # Ensure we don't try to remove more rows than exist
+            if num_rows_to_remove > 0:
                 rows_to_remove = np.random.choice(df_aug.index, num_rows_to_remove, replace=False)
                 df_aug = df_aug.drop(rows_to_remove)
 
-            # Save the modified file (same extension as original)
-            file_ext = filename.split('.')[-1]  # Get original file extension
-            new_filename = f"{filename.split('.')[0]}_{i}.{file_ext}"
-            output_path = os.path.join(output_dir, new_filename)
+            # Save to augmented_datasets/<base_name>/<base_name>_i.ext
+            file_ext = filename.split('.')[-1]
+            new_filename = f"{base_name}_{i}.{file_ext}"
+            output_path = os.path.join(dataset_dir, new_filename)
             df_aug.to_csv(output_path, index=False, header=False)
 
-            # Debugging: Confirm file saved
-            if i % 100 == 0:
+            if i % 100 == 0 or i == num_iterations:
                 print(f"Saved: {output_path}")
 
     except Exception as e:
         print(f"Error processing {filename}: {e}")
 
 print("\nData augmentation complete!")
+
