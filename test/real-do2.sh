@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --job-name=ODT_MultiData
 #SBATCH --nodes=1
-#SBATCH --ntasks-per-node=128
+#SBATCH --ntasks-per-node=6
 #SBATCH --time=24:00:00
 #SBATCH --exclusive
 #SBATCH --array=1-2
@@ -45,11 +45,11 @@ echo "Using CPLEX from: $(which cplex)"
 
 # Set dataset using SLURM array task ID
 i=${SLURM_ARRAY_TASK_ID}
-dataset="data/banknote/banknote_${i}.banknote"
+dataset="data/glass/glass_${i}.glass"
 echo "Running for dataset: $dataset"
 
 # Set seed
-seed="1"
+seed="9"
 
 # Define output file
 output_file="$HOME/optimal_decision_tree/outputs/info-${dataset}-sd${seed}-2-CMS-${SLURM_NTASKS}.out"
