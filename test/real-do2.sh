@@ -45,7 +45,7 @@ echo "Using CPLEX from: $(which cplex)"
 
 # Set dataset using SLURM array task ID
 i=${SLURM_ARRAY_TASK_ID}
-dataset="wall-following_${i}.wall-following"
+dataset="data/banknote/banknote_${i}.banknote"
 echo "Running for dataset: $dataset"
 
 # Set seed

@@ -19,12 +19,12 @@ if not os.path.exists(data_dir):
     exit()
 
 # Define parameters
-num_iterations = 140  # Number of variations per file
+num_iterations = 4000  # Number of variations per file
 noise_std_dev = 0.05   # Standard deviation for Gaussian noise
 removal_fraction = 0.02  # Fraction of rows to remove per iteration
 
 # Choose which files to include (by substring match)
-filter_names = ["banknote"]  # <-- Edit this list to match desired datasets
+filter_names = ["glass"]  # <-- Edit this list to match desired datasets
 
 # Get list of files in the data directory that match one of the substrings
 all_files = [
